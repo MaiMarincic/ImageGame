@@ -102,7 +102,7 @@ def add_player():
                 game.generate_initial_image()
             except Exception as e:
                 logger.error(f"Error generating initial image: {str(e)}")
-                return jsonify({"error": "Failed to generate initial image"}), 500
+                return jsonify({"error": "Failed to generate initial image"+ str(e)}), 500
         
         return jsonify({"success": True, "playerId": player_id})
     except ValueError as ve:

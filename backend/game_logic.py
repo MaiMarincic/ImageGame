@@ -9,8 +9,15 @@ import os
 import logging
 
 # Set up logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('Game.log'),  # Log to a file
+        logging.StreamHandler()  # Log to console
+    ]
+)
+logger = logging.getLogger("MainGame")
 
 class GameStatus(Enum):
     SETUP = auto()
@@ -62,6 +69,41 @@ class Game:
                 self.game_id = cursor.lastrowid
                 conn.commit()
             logger.info(f"Created new game with ID: {self.game_id}")
+
+    def insert_into_index(self, prompt, path, user_id="0"):
+        try:
+            with self._get_db_connection() as conn:
+                cursor = conn.cursor()
+                
+                cursor.execute("""
+                    INSERT INTO Images (Prompt, Game_Id, User_Id)
+                    VALUES (?, ?, ?)
+                """, (prompt, self.game_id, user_id))
+                
+                image_id = cursor.lastrowid
+                
+                vector_embeddings = b'sample_vector_data'  # Replace with actual vector data
+                
+                # Insert into VectorIndex table
+                cursor.execute("""
+                    INSERT INTO VectorIndex (Vector_embeddings, Image_Id)
+                    VALUES (?, ?)
+                """, (vector_embeddings, image_id))
+                
+                vector_id = cursor.lastrowid
+                
+                # Update Images table with Vector_Id
+                cursor.execute("""
+                    UPDATE Images
+                    SET Vector_Id = ?
+                    WHERE Id = ?
+                """, (vector_id, image_id))
+                
+                conn.commit()
+                return image_id, vector_id
+        except Exception as e:
+            logger.error(f"Error inserting into index: {str(e)}")
+            raise
 
     def add_player(self, user_id: int) -> int:
         logger.info(f"Attempting to add player with user ID: {user_id}")
@@ -136,7 +178,7 @@ class Game:
             if self.status != GameStatus.GENERATING_INITIAL_IMAGE:
                 logger.warning(f"Cannot generate initial image at this stage. Current status: {self.status}")
                 raise ValueError("Cannot generate initial image at this stage")
-            img = generate_image(generate_prompt())
+            img = generate_image(generate_prompt(), self.insert_into_index, 0) 
             self.initImgPrompt = ImgPrompt("Initial prompt", img)
             self.status = GameStatus.PROMPTING_PLAYERS
             logger.info("Initial image generated, moving to PROMPTING_PLAYERS status")
@@ -173,23 +215,10 @@ class Game:
                 raise ValueError("Cannot generate player images at this stage")
             for player in self.players.values():
                 if player.imgP and player.imgP.prompt:
-                    img = generate_image(player.imgP.prompt)
+                    img = generate_image(player.imgP.prompt, self.insert_into_index, player.id)
                     player.imgP.img = img
                     logger.debug(f"Generated image for player {player.id}")
-                    
                     # TODO: Generate vector embeddings for the image
-                    vector_embeddings = b"placeholder_vector_embeddings"
-                    
-                    with self._get_db_connection() as conn:
-                        cursor = conn.cursor()
-                        cursor.execute("INSERT INTO VectorIndex (Vector_embeddings, Image_Id) VALUES (?, ?)",
-                                       (vector_embeddings, player.id))
-                        vector_id = cursor.lastrowid
-                        cursor.execute("UPDATE Images SET Vector_Id = ? WHERE Game_Id = ? AND User_Id = ?",
-                                       (vector_id, self.game_id, player.id))
-                        conn.commit()
-                    logger.debug(f"Saved vector embeddings for player {player.id}")
-            
             self.status = GameStatus.VOTING
             logger.info("All player images generated, moving to VOTING status")
 

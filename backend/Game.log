@@ -1,0 +1,3187 @@
+2024-08-23 17:02:12,186 - INFO - Initializing game with 3 players and database at game_database.db
+2024-08-23 17:02:12,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-23 17:02:12,193 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-23 17:02:12,193 - INFO -  * Restarting with stat
+2024-08-23 17:02:12,296 - INFO - Initializing game with 3 players and database at game_database.db
+2024-08-23 17:02:12,301 - WARNING -  * Debugger is active!
+2024-08-23 17:02:12,302 - INFO -  * Debugger PIN: 142-387-460
+2024-08-23 17:02:29,539 - DEBUG - Request:
+2024-08-23 17:02:29,539 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 38
+Content-Type: application/json
+
+
+2024-08-23 17:02:29,540 - DEBUG - Body: b'{"username": "Mai", "password": "123"}'
+2024-08-23 17:02:29,540 - DEBUG - ----------
+2024-08-23 17:02:29,540 - INFO - Login attempt for user: Mai
+2024-08-23 17:02:29,540 - INFO - Login attempt for user: Mai
+2024-08-23 17:02:29,540 - DEBUG - Getting database connection
+2024-08-23 17:02:29,540 - INFO - Successful login for user: Mai (ID: 6)
+2024-08-23 17:02:29,540 - INFO - Successful login for user: Mai with ID: 6
+2024-08-23 17:02:29,541 - DEBUG - Response:
+2024-08-23 17:02:29,541 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:29,541 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-23 17:02:29,541 - DEBUG - ----------
+2024-08-23 17:02:29,541 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:29] "POST /login HTTP/1.1" 200 -
+2024-08-23 17:02:29,543 - DEBUG - Request:
+2024-08-23 17:02:29,543 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-23 17:02:29,543 - DEBUG - Body: b'{"user_id": 6}'
+2024-08-23 17:02:29,543 - DEBUG - ----------
+2024-08-23 17:02:29,543 - INFO - Received add_player request
+2024-08-23 17:02:29,543 - INFO - Attempting to add player with user ID: 6
+2024-08-23 17:02:29,543 - INFO - Attempting to add player with user ID: 6
+2024-08-23 17:02:29,543 - INFO - Ensuring game exists
+2024-08-23 17:02:29,543 - DEBUG - Getting database connection
+2024-08-23 17:02:29,565 - INFO - Created new game with ID: 24
+2024-08-23 17:02:29,565 - DEBUG - Getting database connection
+2024-08-23 17:02:29,573 - INFO - Added player Mai (ID: 6) to game 24
+2024-08-23 17:02:29,574 - INFO - Successfully added player with ID: 6
+2024-08-23 17:02:29,574 - DEBUG - Response:
+2024-08-23 17:02:29,574 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:29,574 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-23 17:02:29,574 - DEBUG - ----------
+2024-08-23 17:02:29,574 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:29] "POST /add_player HTTP/1.1" 200 -
+2024-08-23 17:02:29,590 - DEBUG - Request:
+2024-08-23 17:02:29,590 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:29,590 - DEBUG - Body: b''
+2024-08-23 17:02:29,590 - DEBUG - ----------
+2024-08-23 17:02:29,591 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:29,591 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:29,591 - DEBUG - Response:
+2024-08-23 17:02:29,591 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:29,591 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:29,591 - DEBUG - ----------
+2024-08-23 17:02:29,591 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:29] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:31,628 - DEBUG - Request:
+2024-08-23 17:02:31,629 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:31,629 - DEBUG - Body: b''
+2024-08-23 17:02:31,629 - DEBUG - ----------
+2024-08-23 17:02:31,629 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:31,629 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:31,629 - DEBUG - Response:
+2024-08-23 17:02:31,629 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:31,629 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:31,629 - DEBUG - ----------
+2024-08-23 17:02:31,629 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:31] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:33,669 - DEBUG - Request:
+2024-08-23 17:02:33,669 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:33,669 - DEBUG - Body: b''
+2024-08-23 17:02:33,669 - DEBUG - ----------
+2024-08-23 17:02:33,669 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:33,669 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:33,669 - DEBUG - Response:
+2024-08-23 17:02:33,669 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:33,669 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:33,669 - DEBUG - ----------
+2024-08-23 17:02:33,669 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:33] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:35,134 - DEBUG - Request:
+2024-08-23 17:02:35,134 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 40
+Content-Type: application/json
+
+
+2024-08-23 17:02:35,134 - DEBUG - Body: b'{"username": "Domzi", "password": "123"}'
+2024-08-23 17:02:35,134 - DEBUG - ----------
+2024-08-23 17:02:35,134 - INFO - Login attempt for user: Domzi
+2024-08-23 17:02:35,134 - INFO - Login attempt for user: Domzi
+2024-08-23 17:02:35,134 - DEBUG - Getting database connection
+2024-08-23 17:02:35,135 - INFO - Successful login for user: Domzi (ID: 7)
+2024-08-23 17:02:35,135 - INFO - Successful login for user: Domzi with ID: 7
+2024-08-23 17:02:35,135 - DEBUG - Response:
+2024-08-23 17:02:35,135 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:35,135 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-23 17:02:35,135 - DEBUG - ----------
+2024-08-23 17:02:35,135 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:35] "POST /login HTTP/1.1" 200 -
+2024-08-23 17:02:35,137 - DEBUG - Request:
+2024-08-23 17:02:35,137 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-23 17:02:35,137 - DEBUG - Body: b'{"user_id": 7}'
+2024-08-23 17:02:35,137 - DEBUG - ----------
+2024-08-23 17:02:35,137 - INFO - Received add_player request
+2024-08-23 17:02:35,137 - INFO - Attempting to add player with user ID: 7
+2024-08-23 17:02:35,137 - INFO - Attempting to add player with user ID: 7
+2024-08-23 17:02:35,137 - INFO - Ensuring game exists
+2024-08-23 17:02:35,137 - DEBUG - Getting database connection
+2024-08-23 17:02:35,156 - INFO - Added player Domzi (ID: 7) to game 24
+2024-08-23 17:02:35,156 - INFO - Successfully added player with ID: 7
+2024-08-23 17:02:35,156 - DEBUG - Response:
+2024-08-23 17:02:35,157 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:35,157 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-23 17:02:35,157 - DEBUG - ----------
+2024-08-23 17:02:35,157 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:35] "POST /add_player HTTP/1.1" 200 -
+2024-08-23 17:02:35,174 - DEBUG - Request:
+2024-08-23 17:02:35,174 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:35,174 - DEBUG - Body: b''
+2024-08-23 17:02:35,174 - DEBUG - ----------
+2024-08-23 17:02:35,174 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:35,174 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:35,174 - DEBUG - Response:
+2024-08-23 17:02:35,174 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:35,174 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:35,175 - DEBUG - ----------
+2024-08-23 17:02:35,175 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:35] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:35,708 - DEBUG - Request:
+2024-08-23 17:02:35,708 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:35,708 - DEBUG - Body: b''
+2024-08-23 17:02:35,708 - DEBUG - ----------
+2024-08-23 17:02:35,708 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:35,708 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:35,708 - DEBUG - Response:
+2024-08-23 17:02:35,708 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:35,708 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:35,708 - DEBUG - ----------
+2024-08-23 17:02:35,709 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:35] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:37,211 - DEBUG - Request:
+2024-08-23 17:02:37,211 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:37,211 - DEBUG - Body: b''
+2024-08-23 17:02:37,211 - DEBUG - ----------
+2024-08-23 17:02:37,211 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:37,211 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:37,211 - DEBUG - Response:
+2024-08-23 17:02:37,211 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:37,211 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:37,211 - DEBUG - ----------
+2024-08-23 17:02:37,212 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:37] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:37,745 - DEBUG - Request:
+2024-08-23 17:02:37,745 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:37,745 - DEBUG - Body: b''
+2024-08-23 17:02:37,745 - DEBUG - ----------
+2024-08-23 17:02:37,745 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:37,745 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:37,745 - DEBUG - Response:
+2024-08-23 17:02:37,745 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:37,745 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:37,745 - DEBUG - ----------
+2024-08-23 17:02:37,745 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:37] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:39,248 - DEBUG - Request:
+2024-08-23 17:02:39,248 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:39,248 - DEBUG - Body: b''
+2024-08-23 17:02:39,248 - DEBUG - ----------
+2024-08-23 17:02:39,248 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:39,248 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:39,249 - DEBUG - Response:
+2024-08-23 17:02:39,249 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:39,249 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:39,249 - DEBUG - ----------
+2024-08-23 17:02:39,249 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:39] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:39,787 - DEBUG - Request:
+2024-08-23 17:02:39,787 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:39,787 - DEBUG - Body: b''
+2024-08-23 17:02:39,787 - DEBUG - ----------
+2024-08-23 17:02:39,787 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:39,787 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:39,788 - DEBUG - Response:
+2024-08-23 17:02:39,788 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:39,788 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:02:39,788 - DEBUG - ----------
+2024-08-23 17:02:39,788 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:39] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:40,109 - DEBUG - Request:
+2024-08-23 17:02:40,109 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 38
+Content-Type: application/json
+
+
+2024-08-23 17:02:40,109 - DEBUG - Body: b'{"username": "Ana", "password": "123"}'
+2024-08-23 17:02:40,109 - DEBUG - ----------
+2024-08-23 17:02:40,109 - INFO - Login attempt for user: Ana
+2024-08-23 17:02:40,109 - INFO - Login attempt for user: Ana
+2024-08-23 17:02:40,109 - DEBUG - Getting database connection
+2024-08-23 17:02:40,109 - INFO - Successful login for user: Ana (ID: 8)
+2024-08-23 17:02:40,109 - INFO - Successful login for user: Ana with ID: 8
+2024-08-23 17:02:40,110 - DEBUG - Response:
+2024-08-23 17:02:40,110 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:40,110 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-23 17:02:40,110 - DEBUG - ----------
+2024-08-23 17:02:40,110 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:40] "POST /login HTTP/1.1" 200 -
+2024-08-23 17:02:40,112 - DEBUG - Request:
+2024-08-23 17:02:40,112 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-23 17:02:40,112 - DEBUG - Body: b'{"user_id": 8}'
+2024-08-23 17:02:40,112 - DEBUG - ----------
+2024-08-23 17:02:40,112 - INFO - Received add_player request
+2024-08-23 17:02:40,112 - INFO - Attempting to add player with user ID: 8
+2024-08-23 17:02:40,112 - INFO - Attempting to add player with user ID: 8
+2024-08-23 17:02:40,112 - INFO - Ensuring game exists
+2024-08-23 17:02:40,112 - DEBUG - Getting database connection
+2024-08-23 17:02:40,131 - INFO - Added player Ana (ID: 8) to game 24
+2024-08-23 17:02:40,131 - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-23 17:02:40,132 - INFO - Successfully added player with ID: 8
+2024-08-23 17:02:40,132 - INFO - Starting initial image generation
+2024-08-23 17:02:40,132 - INFO - Generating initial image
+2024-08-23 17:02:40,428 - WARNING - 
+2024-08-23 17:02:40,429 - DEBUG - Getting database connection
+2024-08-23 17:02:40,435 - INFO - Initial image generated, moving to PROMPTING_PLAYERS status
+2024-08-23 17:02:40,435 - DEBUG - Response:
+2024-08-23 17:02:40,435 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:40,435 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-23 17:02:40,435 - DEBUG - ----------
+2024-08-23 17:02:40,435 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:40] "POST /add_player HTTP/1.1" 200 -
+2024-08-23 17:02:40,451 - DEBUG - Request:
+2024-08-23 17:02:40,451 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:40,451 - DEBUG - Body: b''
+2024-08-23 17:02:40,451 - DEBUG - ----------
+2024-08-23 17:02:40,451 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:40,451 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:40,451 - DEBUG - Response:
+2024-08-23 17:02:40,451 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:40,451 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:40,451 - DEBUG - ----------
+2024-08-23 17:02:40,451 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:40] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:40,464 - DEBUG - Request:
+2024-08-23 17:02:40,464 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:40,465 - DEBUG - Body: b''
+2024-08-23 17:02:40,465 - DEBUG - ----------
+2024-08-23 17:02:40,465 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:02:40,465 - INFO - Initial image retrieved
+2024-08-23 17:02:40,470 - DEBUG - Response:
+2024-08-23 17:02:40,470 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:40,470 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:02:40,470 - DEBUG - ----------
+2024-08-23 17:02:40,470 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:40] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:02:41,286 - DEBUG - Request:
+2024-08-23 17:02:41,286 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:41,286 - DEBUG - Body: b''
+2024-08-23 17:02:41,286 - DEBUG - ----------
+2024-08-23 17:02:41,286 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:41,286 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:41,286 - DEBUG - Response:
+2024-08-23 17:02:41,286 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:41,286 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:41,286 - DEBUG - ----------
+2024-08-23 17:02:41,287 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:41] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:41,302 - DEBUG - Request:
+2024-08-23 17:02:41,302 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:41,302 - DEBUG - Body: b''
+2024-08-23 17:02:41,302 - DEBUG - ----------
+2024-08-23 17:02:41,302 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:02:41,302 - INFO - Initial image retrieved
+2024-08-23 17:02:41,307 - DEBUG - Response:
+2024-08-23 17:02:41,307 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:41,307 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:02:41,307 - DEBUG - ----------
+2024-08-23 17:02:41,307 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:41] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:02:41,831 - DEBUG - Request:
+2024-08-23 17:02:41,831 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:41,832 - DEBUG - Body: b''
+2024-08-23 17:02:41,832 - DEBUG - ----------
+2024-08-23 17:02:41,832 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:41,832 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:41,832 - DEBUG - Response:
+2024-08-23 17:02:41,832 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:41,832 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:41,832 - DEBUG - ----------
+2024-08-23 17:02:41,832 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:41] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:41,850 - DEBUG - Request:
+2024-08-23 17:02:41,850 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:41,851 - DEBUG - Body: b''
+2024-08-23 17:02:41,851 - DEBUG - ----------
+2024-08-23 17:02:41,851 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:02:41,851 - INFO - Initial image retrieved
+2024-08-23 17:02:41,856 - DEBUG - Response:
+2024-08-23 17:02:41,856 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:41,856 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:02:41,856 - DEBUG - ----------
+2024-08-23 17:02:41,856 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:41] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:02:46,800 - DEBUG - Request:
+2024-08-23 17:02:46,800 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:46,800 - DEBUG - Body: b''
+2024-08-23 17:02:46,800 - DEBUG - ----------
+2024-08-23 17:02:46,800 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:02:46,800 - INFO - Initial image retrieved
+2024-08-23 17:02:46,805 - DEBUG - Response:
+2024-08-23 17:02:46,805 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:46,805 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:02:46,805 - DEBUG - ----------
+2024-08-23 17:02:46,805 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:46] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:02:46,851 - DEBUG - Request:
+2024-08-23 17:02:46,851 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:46,851 - DEBUG - Body: b''
+2024-08-23 17:02:46,851 - DEBUG - ----------
+2024-08-23 17:02:46,851 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:46,851 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:46,851 - DEBUG - Response:
+2024-08-23 17:02:46,851 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:46,851 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:46,851 - DEBUG - ----------
+2024-08-23 17:02:46,851 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:46] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:46,868 - DEBUG - Request:
+2024-08-23 17:02:46,868 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:46,868 - DEBUG - Body: b''
+2024-08-23 17:02:46,868 - DEBUG - ----------
+2024-08-23 17:02:46,868 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:02:46,868 - INFO - Initial image retrieved
+2024-08-23 17:02:46,873 - DEBUG - Response:
+2024-08-23 17:02:46,873 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:46,873 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:02:46,873 - DEBUG - ----------
+2024-08-23 17:02:46,873 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:46] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:02:46,915 - DEBUG - Request:
+2024-08-23 17:02:46,915 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 43
+Content-Type: application/json
+
+
+2024-08-23 17:02:46,915 - DEBUG - Body: b'{"player_id": 8, "player_prompt": "Edible"}'
+2024-08-23 17:02:46,915 - DEBUG - ----------
+2024-08-23 17:02:46,915 - INFO - Sending prompt for user 8: Edible
+2024-08-23 17:02:46,915 - DEBUG - Getting database connection
+2024-08-23 17:02:46,935 - INFO - Prompt saved for user 8
+2024-08-23 17:02:46,935 - DEBUG - All prompts sent: False
+2024-08-23 17:02:46,935 - INFO - Player 8 sent prompt: Edible
+2024-08-23 17:02:46,935 - DEBUG - Response:
+2024-08-23 17:02:46,935 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:46,935 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:02:46,935 - DEBUG - ----------
+2024-08-23 17:02:46,935 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:46] "POST /send_prompt HTTP/1.1" 200 -
+2024-08-23 17:02:48,985 - DEBUG - Request:
+2024-08-23 17:02:48,985 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:48,985 - DEBUG - Body: b''
+2024-08-23 17:02:48,985 - DEBUG - ----------
+2024-08-23 17:02:48,986 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:48,986 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:48,986 - DEBUG - Response:
+2024-08-23 17:02:48,986 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:48,986 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:48,986 - DEBUG - ----------
+2024-08-23 17:02:48,986 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:48] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:51,023 - DEBUG - Request:
+2024-08-23 17:02:51,023 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:51,024 - DEBUG - Body: b''
+2024-08-23 17:02:51,024 - DEBUG - ----------
+2024-08-23 17:02:51,024 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:51,024 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:51,024 - DEBUG - Response:
+2024-08-23 17:02:51,024 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:51,024 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:51,024 - DEBUG - ----------
+2024-08-23 17:02:51,024 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:51] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:53,061 - DEBUG - Request:
+2024-08-23 17:02:53,061 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:53,061 - DEBUG - Body: b''
+2024-08-23 17:02:53,061 - DEBUG - ----------
+2024-08-23 17:02:53,061 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:53,061 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:53,061 - DEBUG - Response:
+2024-08-23 17:02:53,061 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:53,061 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:53,062 - DEBUG - ----------
+2024-08-23 17:02:53,062 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:53] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:55,105 - DEBUG - Request:
+2024-08-23 17:02:55,105 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:55,105 - DEBUG - Body: b''
+2024-08-23 17:02:55,105 - DEBUG - ----------
+2024-08-23 17:02:55,105 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:55,105 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:55,106 - DEBUG - Response:
+2024-08-23 17:02:55,106 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:55,106 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:55,106 - DEBUG - ----------
+2024-08-23 17:02:55,106 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:55] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:55,248 - DEBUG - Request:
+2024-08-23 17:02:55,248 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:55,248 - DEBUG - Body: b''
+2024-08-23 17:02:55,248 - DEBUG - ----------
+2024-08-23 17:02:55,248 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:02:55,248 - INFO - Initial image retrieved
+2024-08-23 17:02:55,253 - DEBUG - Response:
+2024-08-23 17:02:55,253 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:55,253 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:02:55,253 - DEBUG - ----------
+2024-08-23 17:02:55,253 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:55] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:02:55,298 - DEBUG - Request:
+2024-08-23 17:02:55,299 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:55,299 - DEBUG - Body: b''
+2024-08-23 17:02:55,299 - DEBUG - ----------
+2024-08-23 17:02:55,299 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:55,299 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:55,299 - DEBUG - Response:
+2024-08-23 17:02:55,299 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:55,299 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:55,299 - DEBUG - ----------
+2024-08-23 17:02:55,299 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:55] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:55,332 - DEBUG - Request:
+2024-08-23 17:02:55,333 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:55,333 - DEBUG - Body: b''
+2024-08-23 17:02:55,333 - DEBUG - ----------
+2024-08-23 17:02:55,333 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:02:55,333 - INFO - Initial image retrieved
+2024-08-23 17:02:55,338 - DEBUG - Response:
+2024-08-23 17:02:55,338 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:55,338 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:02:55,338 - DEBUG - ----------
+2024-08-23 17:02:55,338 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:55] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:02:55,381 - DEBUG - Request:
+2024-08-23 17:02:55,382 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 40
+Content-Type: application/json
+
+
+2024-08-23 17:02:55,382 - DEBUG - Body: b'{"player_id": 7, "player_prompt": "2CB"}'
+2024-08-23 17:02:55,382 - DEBUG - ----------
+2024-08-23 17:02:55,382 - INFO - Sending prompt for user 7: 2CB
+2024-08-23 17:02:55,382 - DEBUG - Getting database connection
+2024-08-23 17:02:55,401 - INFO - Prompt saved for user 7
+2024-08-23 17:02:55,401 - DEBUG - All prompts sent: False
+2024-08-23 17:02:55,401 - INFO - Player 7 sent prompt: 2CB
+2024-08-23 17:02:55,402 - DEBUG - Response:
+2024-08-23 17:02:55,402 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:55,402 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:02:55,402 - DEBUG - ----------
+2024-08-23 17:02:55,402 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:55] "POST /send_prompt HTTP/1.1" 200 -
+2024-08-23 17:02:57,140 - DEBUG - Request:
+2024-08-23 17:02:57,140 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:57,141 - DEBUG - Body: b''
+2024-08-23 17:02:57,141 - DEBUG - ----------
+2024-08-23 17:02:57,141 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:57,141 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:57,141 - DEBUG - Response:
+2024-08-23 17:02:57,141 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:57,141 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:57,141 - DEBUG - ----------
+2024-08-23 17:02:57,141 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:57] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:57,450 - DEBUG - Request:
+2024-08-23 17:02:57,451 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:57,451 - DEBUG - Body: b''
+2024-08-23 17:02:57,451 - DEBUG - ----------
+2024-08-23 17:02:57,451 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:57,451 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:57,451 - DEBUG - Response:
+2024-08-23 17:02:57,451 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:57,451 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:57,451 - DEBUG - ----------
+2024-08-23 17:02:57,451 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:57] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:59,182 - DEBUG - Request:
+2024-08-23 17:02:59,182 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:59,182 - DEBUG - Body: b''
+2024-08-23 17:02:59,182 - DEBUG - ----------
+2024-08-23 17:02:59,182 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:59,182 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:59,182 - DEBUG - Response:
+2024-08-23 17:02:59,182 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:59,183 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:59,183 - DEBUG - ----------
+2024-08-23 17:02:59,183 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:59] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:02:59,480 - DEBUG - Request:
+2024-08-23 17:02:59,481 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:02:59,481 - DEBUG - Body: b''
+2024-08-23 17:02:59,481 - DEBUG - ----------
+2024-08-23 17:02:59,481 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:59,481 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:02:59,481 - DEBUG - Response:
+2024-08-23 17:02:59,481 - DEBUG - Response status: 200 OK
+2024-08-23 17:02:59,481 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:02:59,481 - DEBUG - ----------
+2024-08-23 17:02:59,481 - INFO - 127.0.0.1 - - [23/Aug/2024 17:02:59] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:00,041 - DEBUG - Request:
+2024-08-23 17:03:00,041 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:00,041 - DEBUG - Body: b''
+2024-08-23 17:03:00,042 - DEBUG - ----------
+2024-08-23 17:03:00,042 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:03:00,042 - INFO - Initial image retrieved
+2024-08-23 17:03:00,047 - DEBUG - Response:
+2024-08-23 17:03:00,047 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:00,047 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:03:00,047 - DEBUG - ----------
+2024-08-23 17:03:00,047 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:00] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:03:00,092 - DEBUG - Request:
+2024-08-23 17:03:00,092 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:00,092 - DEBUG - Body: b''
+2024-08-23 17:03:00,092 - DEBUG - ----------
+2024-08-23 17:03:00,092 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:00,092 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:00,092 - DEBUG - Response:
+2024-08-23 17:03:00,092 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:00,092 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:03:00,092 - DEBUG - ----------
+2024-08-23 17:03:00,092 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:00] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:00,106 - DEBUG - Request:
+2024-08-23 17:03:00,106 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:00,106 - DEBUG - Body: b''
+2024-08-23 17:03:00,106 - DEBUG - ----------
+2024-08-23 17:03:00,106 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:03:00,106 - INFO - Initial image retrieved
+2024-08-23 17:03:00,111 - DEBUG - Response:
+2024-08-23 17:03:00,111 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:00,111 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:03:00,111 - DEBUG - ----------
+2024-08-23 17:03:00,112 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:00] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:03:00,158 - DEBUG - Request:
+2024-08-23 17:03:00,158 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 42
+Content-Type: application/json
+
+
+2024-08-23 17:03:00,158 - DEBUG - Body: b'{"player_id": 6, "player_prompt": "Smile"}'
+2024-08-23 17:03:00,158 - DEBUG - ----------
+2024-08-23 17:03:00,158 - INFO - Sending prompt for user 6: Smile
+2024-08-23 17:03:00,158 - DEBUG - Getting database connection
+2024-08-23 17:03:00,166 - INFO - Prompt saved for user 6
+2024-08-23 17:03:00,166 - DEBUG - All prompts sent: True
+2024-08-23 17:03:00,166 - INFO - All prompts sent, moving to GENERATING_PLAYER_IMAGES status
+2024-08-23 17:03:00,167 - INFO - Player 6 sent prompt: Smile
+2024-08-23 17:03:00,167 - INFO - Generating player images
+2024-08-23 17:03:00,167 - DEBUG - Response:
+2024-08-23 17:03:00,167 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:00,167 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:03:00,167 - DEBUG - ----------
+2024-08-23 17:03:00,167 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:00] "POST /send_prompt HTTP/1.1" 200 -
+2024-08-23 17:03:00,185 - DEBUG - Request:
+2024-08-23 17:03:00,185 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:00,185 - DEBUG - Body: b''
+2024-08-23 17:03:00,185 - DEBUG - ----------
+2024-08-23 17:03:00,185 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:00,185 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:00,185 - DEBUG - Response:
+2024-08-23 17:03:00,185 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:00,185 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:00,185 - DEBUG - ----------
+2024-08-23 17:03:00,186 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:00] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:01,218 - DEBUG - Request:
+2024-08-23 17:03:01,218 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:01,219 - DEBUG - Body: b''
+2024-08-23 17:03:01,219 - DEBUG - ----------
+2024-08-23 17:03:01,219 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:01,219 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:01,219 - DEBUG - Response:
+2024-08-23 17:03:01,219 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:01,219 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:01,219 - DEBUG - ----------
+2024-08-23 17:03:01,219 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:01] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:01,518 - DEBUG - Request:
+2024-08-23 17:03:01,518 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:01,518 - DEBUG - Body: b''
+2024-08-23 17:03:01,518 - DEBUG - ----------
+2024-08-23 17:03:01,518 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:01,518 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:01,518 - DEBUG - Response:
+2024-08-23 17:03:01,518 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:01,518 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:01,518 - DEBUG - ----------
+2024-08-23 17:03:01,518 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:01] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:02,224 - DEBUG - Request:
+2024-08-23 17:03:02,224 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:02,225 - DEBUG - Body: b''
+2024-08-23 17:03:02,225 - DEBUG - ----------
+2024-08-23 17:03:02,225 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:02,225 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:02,225 - DEBUG - Response:
+2024-08-23 17:03:02,225 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:02,225 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:02,225 - DEBUG - ----------
+2024-08-23 17:03:02,225 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:02] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:03,260 - DEBUG - Request:
+2024-08-23 17:03:03,260 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:03,260 - DEBUG - Body: b''
+2024-08-23 17:03:03,260 - DEBUG - ----------
+2024-08-23 17:03:03,260 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:03,260 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:03,260 - DEBUG - Response:
+2024-08-23 17:03:03,260 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:03,260 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:03,260 - DEBUG - ----------
+2024-08-23 17:03:03,260 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:03] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:03,554 - DEBUG - Request:
+2024-08-23 17:03:03,554 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:03,554 - DEBUG - Body: b''
+2024-08-23 17:03:03,554 - DEBUG - ----------
+2024-08-23 17:03:03,554 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:03,554 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:03,554 - DEBUG - Response:
+2024-08-23 17:03:03,554 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:03,554 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:03,554 - DEBUG - ----------
+2024-08-23 17:03:03,554 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:03] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:04,263 - DEBUG - Request:
+2024-08-23 17:03:04,264 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:04,264 - DEBUG - Body: b''
+2024-08-23 17:03:04,264 - DEBUG - ----------
+2024-08-23 17:03:04,264 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:04,264 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:04,264 - DEBUG - Response:
+2024-08-23 17:03:04,264 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:04,264 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:04,264 - DEBUG - ----------
+2024-08-23 17:03:04,264 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:04] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:05,301 - DEBUG - Request:
+2024-08-23 17:03:05,301 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:05,301 - DEBUG - Body: b''
+2024-08-23 17:03:05,301 - DEBUG - ----------
+2024-08-23 17:03:05,301 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:05,302 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:05,302 - DEBUG - Response:
+2024-08-23 17:03:05,302 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:05,302 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:05,302 - DEBUG - ----------
+2024-08-23 17:03:05,302 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:05] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:05,598 - DEBUG - Request:
+2024-08-23 17:03:05,599 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:05,599 - DEBUG - Body: b''
+2024-08-23 17:03:05,599 - DEBUG - ----------
+2024-08-23 17:03:05,599 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:05,599 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:05,599 - DEBUG - Response:
+2024-08-23 17:03:05,599 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:05,600 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:05,600 - DEBUG - ----------
+2024-08-23 17:03:05,600 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:05] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:06,305 - DEBUG - Request:
+2024-08-23 17:03:06,306 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:06,306 - DEBUG - Body: b''
+2024-08-23 17:03:06,306 - DEBUG - ----------
+2024-08-23 17:03:06,306 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:06,306 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:06,306 - DEBUG - Response:
+2024-08-23 17:03:06,306 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:06,306 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:06,306 - DEBUG - ----------
+2024-08-23 17:03:06,306 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:06] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:07,338 - DEBUG - Request:
+2024-08-23 17:03:07,338 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:07,339 - DEBUG - Body: b''
+2024-08-23 17:03:07,339 - DEBUG - ----------
+2024-08-23 17:03:07,339 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:07,339 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:07,339 - DEBUG - Response:
+2024-08-23 17:03:07,339 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:07,339 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:07,339 - DEBUG - ----------
+2024-08-23 17:03:07,339 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:07] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:07,636 - DEBUG - Request:
+2024-08-23 17:03:07,637 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:07,637 - DEBUG - Body: b''
+2024-08-23 17:03:07,637 - DEBUG - ----------
+2024-08-23 17:03:07,637 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:07,637 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:07,637 - DEBUG - Response:
+2024-08-23 17:03:07,637 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:07,637 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:07,637 - DEBUG - ----------
+2024-08-23 17:03:07,637 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:07] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:08,346 - DEBUG - Request:
+2024-08-23 17:03:08,346 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:08,346 - DEBUG - Body: b''
+2024-08-23 17:03:08,346 - DEBUG - ----------
+2024-08-23 17:03:08,346 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:08,346 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:08,347 - DEBUG - Response:
+2024-08-23 17:03:08,347 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:08,347 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:08,347 - DEBUG - ----------
+2024-08-23 17:03:08,347 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:08] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:09,383 - DEBUG - Request:
+2024-08-23 17:03:09,383 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:09,384 - DEBUG - Body: b''
+2024-08-23 17:03:09,384 - DEBUG - ----------
+2024-08-23 17:03:09,384 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:09,384 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:09,384 - DEBUG - Response:
+2024-08-23 17:03:09,384 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:09,384 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:09,384 - DEBUG - ----------
+2024-08-23 17:03:09,384 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:09] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:09,677 - DEBUG - Request:
+2024-08-23 17:03:09,677 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:09,677 - DEBUG - Body: b''
+2024-08-23 17:03:09,677 - DEBUG - ----------
+2024-08-23 17:03:09,677 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:09,677 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:09,677 - DEBUG - Response:
+2024-08-23 17:03:09,678 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:09,678 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:09,678 - DEBUG - ----------
+2024-08-23 17:03:09,678 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:09] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:10,387 - DEBUG - Request:
+2024-08-23 17:03:10,387 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:10,387 - DEBUG - Body: b''
+2024-08-23 17:03:10,387 - DEBUG - ----------
+2024-08-23 17:03:10,387 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:10,387 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:10,387 - DEBUG - Response:
+2024-08-23 17:03:10,387 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:10,387 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:10,387 - DEBUG - ----------
+2024-08-23 17:03:10,387 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:10] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:11,422 - DEBUG - Request:
+2024-08-23 17:03:11,423 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:11,423 - DEBUG - Body: b''
+2024-08-23 17:03:11,423 - DEBUG - ----------
+2024-08-23 17:03:11,423 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:11,423 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:11,423 - DEBUG - Response:
+2024-08-23 17:03:11,423 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:11,423 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:11,423 - DEBUG - ----------
+2024-08-23 17:03:11,423 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:11] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:11,714 - DEBUG - Request:
+2024-08-23 17:03:11,714 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:11,714 - DEBUG - Body: b''
+2024-08-23 17:03:11,714 - DEBUG - ----------
+2024-08-23 17:03:11,714 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:11,714 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:11,714 - DEBUG - Response:
+2024-08-23 17:03:11,714 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:11,714 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:11,714 - DEBUG - ----------
+2024-08-23 17:03:11,714 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:11] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:12,432 - DEBUG - Request:
+2024-08-23 17:03:12,432 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:12,433 - DEBUG - Body: b''
+2024-08-23 17:03:12,433 - DEBUG - ----------
+2024-08-23 17:03:12,433 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:12,433 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:12,433 - DEBUG - Response:
+2024-08-23 17:03:12,433 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:12,433 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:12,433 - DEBUG - ----------
+2024-08-23 17:03:12,433 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:12] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:13,466 - DEBUG - Request:
+2024-08-23 17:03:13,466 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:13,466 - DEBUG - Body: b''
+2024-08-23 17:03:13,466 - DEBUG - ----------
+2024-08-23 17:03:13,466 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:13,466 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:13,467 - DEBUG - Response:
+2024-08-23 17:03:13,467 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:13,467 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:13,467 - DEBUG - ----------
+2024-08-23 17:03:13,467 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:13] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:13,757 - DEBUG - Request:
+2024-08-23 17:03:13,757 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:13,757 - DEBUG - Body: b''
+2024-08-23 17:03:13,757 - DEBUG - ----------
+2024-08-23 17:03:13,757 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:13,757 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:13,757 - DEBUG - Response:
+2024-08-23 17:03:13,757 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:13,757 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:13,757 - DEBUG - ----------
+2024-08-23 17:03:13,758 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:13] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:14,481 - DEBUG - Request:
+2024-08-23 17:03:14,481 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:14,481 - DEBUG - Body: b''
+2024-08-23 17:03:14,481 - DEBUG - ----------
+2024-08-23 17:03:14,481 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:14,481 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:14,481 - DEBUG - Response:
+2024-08-23 17:03:14,481 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:14,482 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:14,482 - DEBUG - ----------
+2024-08-23 17:03:14,482 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:14] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:15,514 - DEBUG - Request:
+2024-08-23 17:03:15,515 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:15,515 - DEBUG - Body: b''
+2024-08-23 17:03:15,515 - DEBUG - ----------
+2024-08-23 17:03:15,515 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:15,515 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:15,515 - DEBUG - Response:
+2024-08-23 17:03:15,515 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:15,515 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:15,515 - DEBUG - ----------
+2024-08-23 17:03:15,515 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:15] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:15,793 - DEBUG - Request:
+2024-08-23 17:03:15,794 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:15,794 - DEBUG - Body: b''
+2024-08-23 17:03:15,794 - DEBUG - ----------
+2024-08-23 17:03:15,794 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:15,794 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:15,794 - DEBUG - Response:
+2024-08-23 17:03:15,794 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:15,794 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:15,794 - DEBUG - ----------
+2024-08-23 17:03:15,794 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:15] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:16,523 - DEBUG - Request:
+2024-08-23 17:03:16,523 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:16,523 - DEBUG - Body: b''
+2024-08-23 17:03:16,523 - DEBUG - ----------
+2024-08-23 17:03:16,523 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:16,523 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:16,523 - DEBUG - Response:
+2024-08-23 17:03:16,523 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:16,523 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:16,523 - DEBUG - ----------
+2024-08-23 17:03:16,523 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:16] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:17,556 - DEBUG - Request:
+2024-08-23 17:03:17,556 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:17,557 - DEBUG - Body: b''
+2024-08-23 17:03:17,557 - DEBUG - ----------
+2024-08-23 17:03:17,557 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:17,557 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:17,557 - DEBUG - Response:
+2024-08-23 17:03:17,557 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:17,557 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:17,557 - DEBUG - ----------
+2024-08-23 17:03:17,557 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:17] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:17,839 - DEBUG - Request:
+2024-08-23 17:03:17,839 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:17,839 - DEBUG - Body: b''
+2024-08-23 17:03:17,839 - DEBUG - ----------
+2024-08-23 17:03:17,839 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:17,839 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:17,839 - DEBUG - Response:
+2024-08-23 17:03:17,839 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:17,839 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:17,839 - DEBUG - ----------
+2024-08-23 17:03:17,840 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:17] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:18,562 - DEBUG - Request:
+2024-08-23 17:03:18,563 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:18,563 - DEBUG - Body: b''
+2024-08-23 17:03:18,563 - DEBUG - ----------
+2024-08-23 17:03:18,563 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:18,563 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:18,563 - DEBUG - Response:
+2024-08-23 17:03:18,563 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:18,563 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:18,563 - DEBUG - ----------
+2024-08-23 17:03:18,563 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:18] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:19,593 - DEBUG - Request:
+2024-08-23 17:03:19,593 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:19,593 - DEBUG - Body: b''
+2024-08-23 17:03:19,593 - DEBUG - ----------
+2024-08-23 17:03:19,593 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:19,593 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:19,594 - DEBUG - Response:
+2024-08-23 17:03:19,594 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:19,594 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:19,594 - DEBUG - ----------
+2024-08-23 17:03:19,594 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:19] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:19,880 - DEBUG - Request:
+2024-08-23 17:03:19,880 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:19,880 - DEBUG - Body: b''
+2024-08-23 17:03:19,880 - DEBUG - ----------
+2024-08-23 17:03:19,880 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:19,880 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:19,880 - DEBUG - Response:
+2024-08-23 17:03:19,880 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:19,880 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:19,880 - DEBUG - ----------
+2024-08-23 17:03:19,881 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:19] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:20,599 - DEBUG - Request:
+2024-08-23 17:03:20,599 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:20,599 - DEBUG - Body: b''
+2024-08-23 17:03:20,599 - DEBUG - ----------
+2024-08-23 17:03:20,599 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:20,599 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:20,599 - DEBUG - Response:
+2024-08-23 17:03:20,599 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:20,599 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:20,599 - DEBUG - ----------
+2024-08-23 17:03:20,600 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:20] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:21,635 - DEBUG - Request:
+2024-08-23 17:03:21,635 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:21,635 - DEBUG - Body: b''
+2024-08-23 17:03:21,635 - DEBUG - ----------
+2024-08-23 17:03:21,635 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:21,635 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:21,635 - DEBUG - Response:
+2024-08-23 17:03:21,635 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:21,636 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:21,636 - DEBUG - ----------
+2024-08-23 17:03:21,636 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:21] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:21,923 - DEBUG - Request:
+2024-08-23 17:03:21,923 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:21,923 - DEBUG - Body: b''
+2024-08-23 17:03:21,923 - DEBUG - ----------
+2024-08-23 17:03:21,923 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:21,923 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:21,923 - DEBUG - Response:
+2024-08-23 17:03:21,923 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:21,923 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:21,923 - DEBUG - ----------
+2024-08-23 17:03:21,923 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:21] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:22,643 - DEBUG - Request:
+2024-08-23 17:03:22,643 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:22,643 - DEBUG - Body: b''
+2024-08-23 17:03:22,643 - DEBUG - ----------
+2024-08-23 17:03:22,643 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:22,643 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:22,643 - DEBUG - Response:
+2024-08-23 17:03:22,643 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:22,643 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:22,643 - DEBUG - ----------
+2024-08-23 17:03:22,643 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:22] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:23,676 - DEBUG - Request:
+2024-08-23 17:03:23,676 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:23,676 - DEBUG - Body: b''
+2024-08-23 17:03:23,676 - DEBUG - ----------
+2024-08-23 17:03:23,676 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:23,676 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:23,677 - DEBUG - Response:
+2024-08-23 17:03:23,677 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:23,677 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:23,677 - DEBUG - ----------
+2024-08-23 17:03:23,677 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:23] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:23,965 - DEBUG - Request:
+2024-08-23 17:03:23,966 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:23,966 - DEBUG - Body: b''
+2024-08-23 17:03:23,966 - DEBUG - ----------
+2024-08-23 17:03:23,966 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:23,966 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:23,967 - DEBUG - Response:
+2024-08-23 17:03:23,967 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:23,967 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:23,967 - DEBUG - ----------
+2024-08-23 17:03:23,967 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:23] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:24,684 - DEBUG - Request:
+2024-08-23 17:03:24,684 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:24,684 - DEBUG - Body: b''
+2024-08-23 17:03:24,684 - DEBUG - ----------
+2024-08-23 17:03:24,685 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:24,685 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:24,685 - DEBUG - Response:
+2024-08-23 17:03:24,685 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:24,685 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:24,685 - DEBUG - ----------
+2024-08-23 17:03:24,685 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:24] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:25,715 - DEBUG - Request:
+2024-08-23 17:03:25,715 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:25,715 - DEBUG - Body: b''
+2024-08-23 17:03:25,715 - DEBUG - ----------
+2024-08-23 17:03:25,715 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:25,715 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:25,715 - DEBUG - Response:
+2024-08-23 17:03:25,715 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:25,715 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:25,715 - DEBUG - ----------
+2024-08-23 17:03:25,716 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:25] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:26,003 - DEBUG - Request:
+2024-08-23 17:03:26,003 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:26,003 - DEBUG - Body: b''
+2024-08-23 17:03:26,003 - DEBUG - ----------
+2024-08-23 17:03:26,003 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:26,003 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:26,003 - DEBUG - Response:
+2024-08-23 17:03:26,004 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:26,004 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:26,004 - DEBUG - ----------
+2024-08-23 17:03:26,004 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:26] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:26,721 - DEBUG - Request:
+2024-08-23 17:03:26,721 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:26,721 - DEBUG - Body: b''
+2024-08-23 17:03:26,721 - DEBUG - ----------
+2024-08-23 17:03:26,721 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:26,721 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:26,721 - DEBUG - Response:
+2024-08-23 17:03:26,721 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:26,721 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:26,721 - DEBUG - ----------
+2024-08-23 17:03:26,721 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:26] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:27,755 - DEBUG - Request:
+2024-08-23 17:03:27,755 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:27,755 - DEBUG - Body: b''
+2024-08-23 17:03:27,755 - DEBUG - ----------
+2024-08-23 17:03:27,755 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:27,755 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:27,756 - DEBUG - Response:
+2024-08-23 17:03:27,756 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:27,756 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:27,756 - DEBUG - ----------
+2024-08-23 17:03:27,756 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:27] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:28,038 - DEBUG - Request:
+2024-08-23 17:03:28,039 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:28,039 - DEBUG - Body: b''
+2024-08-23 17:03:28,039 - DEBUG - ----------
+2024-08-23 17:03:28,039 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:28,039 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:28,039 - DEBUG - Response:
+2024-08-23 17:03:28,039 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:28,039 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:28,039 - DEBUG - ----------
+2024-08-23 17:03:28,039 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:28] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:28,759 - DEBUG - Request:
+2024-08-23 17:03:28,759 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:28,759 - DEBUG - Body: b''
+2024-08-23 17:03:28,759 - DEBUG - ----------
+2024-08-23 17:03:28,760 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:28,760 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:28,760 - DEBUG - Response:
+2024-08-23 17:03:28,760 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:28,760 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:28,760 - DEBUG - ----------
+2024-08-23 17:03:28,760 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:28] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:29,795 - DEBUG - Request:
+2024-08-23 17:03:29,795 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:29,795 - DEBUG - Body: b''
+2024-08-23 17:03:29,795 - DEBUG - ----------
+2024-08-23 17:03:29,795 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:29,796 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:29,796 - DEBUG - Response:
+2024-08-23 17:03:29,796 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:29,796 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:29,796 - DEBUG - ----------
+2024-08-23 17:03:29,796 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:29] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:30,080 - DEBUG - Request:
+2024-08-23 17:03:30,081 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:30,081 - DEBUG - Body: b''
+2024-08-23 17:03:30,081 - DEBUG - ----------
+2024-08-23 17:03:30,081 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:30,081 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:30,081 - DEBUG - Response:
+2024-08-23 17:03:30,081 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:30,081 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:30,081 - DEBUG - ----------
+2024-08-23 17:03:30,082 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:30] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:30,799 - DEBUG - Request:
+2024-08-23 17:03:30,799 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:30,799 - DEBUG - Body: b''
+2024-08-23 17:03:30,799 - DEBUG - ----------
+2024-08-23 17:03:30,799 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:30,799 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:30,800 - DEBUG - Response:
+2024-08-23 17:03:30,800 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:30,800 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:30,800 - DEBUG - ----------
+2024-08-23 17:03:30,800 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:30] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:31,836 - DEBUG - Request:
+2024-08-23 17:03:31,836 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:31,836 - DEBUG - Body: b''
+2024-08-23 17:03:31,836 - DEBUG - ----------
+2024-08-23 17:03:31,836 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:31,836 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:31,836 - DEBUG - Response:
+2024-08-23 17:03:31,836 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:31,836 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:31,837 - DEBUG - ----------
+2024-08-23 17:03:31,837 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:31] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:32,119 - DEBUG - Request:
+2024-08-23 17:03:32,119 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:32,119 - DEBUG - Body: b''
+2024-08-23 17:03:32,119 - DEBUG - ----------
+2024-08-23 17:03:32,119 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:32,119 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:32,119 - DEBUG - Response:
+2024-08-23 17:03:32,119 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:32,119 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:32,119 - DEBUG - ----------
+2024-08-23 17:03:32,119 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:32] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:32,844 - DEBUG - Request:
+2024-08-23 17:03:32,844 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:32,844 - DEBUG - Body: b''
+2024-08-23 17:03:32,844 - DEBUG - ----------
+2024-08-23 17:03:32,845 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:32,845 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:32,845 - DEBUG - Response:
+2024-08-23 17:03:32,845 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:32,845 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:32,845 - DEBUG - ----------
+2024-08-23 17:03:32,845 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:32] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:33,880 - DEBUG - Request:
+2024-08-23 17:03:33,880 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:33,880 - DEBUG - Body: b''
+2024-08-23 17:03:33,880 - DEBUG - ----------
+2024-08-23 17:03:33,881 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:33,881 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:33,881 - DEBUG - Response:
+2024-08-23 17:03:33,881 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:33,881 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:33,881 - DEBUG - ----------
+2024-08-23 17:03:33,881 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:33] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:34,161 - DEBUG - Request:
+2024-08-23 17:03:34,161 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:34,161 - DEBUG - Body: b''
+2024-08-23 17:03:34,161 - DEBUG - ----------
+2024-08-23 17:03:34,161 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:34,162 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:34,162 - DEBUG - Response:
+2024-08-23 17:03:34,162 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:34,162 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:34,162 - DEBUG - ----------
+2024-08-23 17:03:34,162 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:34] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:34,888 - DEBUG - Request:
+2024-08-23 17:03:34,888 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:34,888 - DEBUG - Body: b''
+2024-08-23 17:03:34,888 - DEBUG - ----------
+2024-08-23 17:03:34,888 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:34,888 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:34,889 - DEBUG - Response:
+2024-08-23 17:03:34,889 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:34,889 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:34,889 - DEBUG - ----------
+2024-08-23 17:03:34,889 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:34] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:35,924 - DEBUG - Request:
+2024-08-23 17:03:35,924 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:35,925 - DEBUG - Body: b''
+2024-08-23 17:03:35,925 - DEBUG - ----------
+2024-08-23 17:03:35,925 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:35,925 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:35,925 - DEBUG - Response:
+2024-08-23 17:03:35,925 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:35,925 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:35,925 - DEBUG - ----------
+2024-08-23 17:03:35,925 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:35] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:36,198 - DEBUG - Request:
+2024-08-23 17:03:36,199 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:36,199 - DEBUG - Body: b''
+2024-08-23 17:03:36,199 - DEBUG - ----------
+2024-08-23 17:03:36,199 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:36,199 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:36,199 - DEBUG - Response:
+2024-08-23 17:03:36,199 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:36,199 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:36,199 - DEBUG - ----------
+2024-08-23 17:03:36,199 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:36] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:36,929 - DEBUG - Request:
+2024-08-23 17:03:36,929 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:36,929 - DEBUG - Body: b''
+2024-08-23 17:03:36,930 - DEBUG - ----------
+2024-08-23 17:03:36,930 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:36,930 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:36,930 - DEBUG - Response:
+2024-08-23 17:03:36,930 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:36,930 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:36,930 - DEBUG - ----------
+2024-08-23 17:03:36,930 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:36] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:37,967 - DEBUG - Request:
+2024-08-23 17:03:37,968 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:37,968 - DEBUG - Body: b''
+2024-08-23 17:03:37,968 - DEBUG - ----------
+2024-08-23 17:03:37,968 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:37,968 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:37,968 - DEBUG - Response:
+2024-08-23 17:03:37,968 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:37,968 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:37,968 - DEBUG - ----------
+2024-08-23 17:03:37,969 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:37] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:38,236 - DEBUG - Request:
+2024-08-23 17:03:38,236 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:38,236 - DEBUG - Body: b''
+2024-08-23 17:03:38,236 - DEBUG - ----------
+2024-08-23 17:03:38,236 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:38,236 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:38,236 - DEBUG - Response:
+2024-08-23 17:03:38,236 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:38,236 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:38,237 - DEBUG - ----------
+2024-08-23 17:03:38,237 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:38] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:38,970 - DEBUG - Request:
+2024-08-23 17:03:38,971 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:38,971 - DEBUG - Body: b''
+2024-08-23 17:03:38,971 - DEBUG - ----------
+2024-08-23 17:03:38,971 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:38,971 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:38,971 - DEBUG - Response:
+2024-08-23 17:03:38,971 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:38,971 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:38,971 - DEBUG - ----------
+2024-08-23 17:03:38,972 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:38] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:40,010 - DEBUG - Request:
+2024-08-23 17:03:40,010 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:40,010 - DEBUG - Body: b''
+2024-08-23 17:03:40,010 - DEBUG - ----------
+2024-08-23 17:03:40,010 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:40,010 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:40,011 - DEBUG - Response:
+2024-08-23 17:03:40,011 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:40,011 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:40,011 - DEBUG - ----------
+2024-08-23 17:03:40,011 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:40] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:03:40,279 - DEBUG - Request:
+2024-08-23 17:03:40,279 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:03:40,279 - DEBUG - Body: b''
+2024-08-23 17:03:40,280 - DEBUG - ----------
+2024-08-23 17:03:40,280 - DEBUG - Game status: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:40,280 - INFO - Game status requested: {'status': 'GENERATING_PLAYER_IMAGES', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:03:40,280 - DEBUG - Response:
+2024-08-23 17:03:40,280 - DEBUG - Response status: 200 OK
+2024-08-23 17:03:40,280 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 110
+
+
+2024-08-23 17:03:40,280 - DEBUG - ----------
+2024-08-23 17:03:40,280 - INFO - 127.0.0.1 - - [23/Aug/2024 17:03:40] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:07:31,382 - INFO - Initializing game with 3 players and database at game_database.db
+2024-08-23 17:07:31,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-23 17:07:31,388 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-23 17:07:31,389 - INFO -  * Restarting with stat
+2024-08-23 17:07:31,491 - INFO - Initializing game with 3 players and database at game_database.db
+2024-08-23 17:07:31,495 - WARNING -  * Debugger is active!
+2024-08-23 17:07:31,496 - INFO -  * Debugger PIN: 142-387-460
+2024-08-23 17:09:03,080 - DEBUG - Request:
+2024-08-23 17:09:03,080 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 38
+Content-Type: application/json
+
+
+2024-08-23 17:09:03,080 - DEBUG - Body: b'{"username": "Mai", "password": "123"}'
+2024-08-23 17:09:03,080 - DEBUG - ----------
+2024-08-23 17:09:03,080 - INFO - Login attempt for user: Mai
+2024-08-23 17:09:03,080 - INFO - Login attempt for user: Mai
+2024-08-23 17:09:03,081 - DEBUG - Getting database connection
+2024-08-23 17:09:03,081 - INFO - Successful login for user: Mai (ID: 6)
+2024-08-23 17:09:03,081 - INFO - Successful login for user: Mai with ID: 6
+2024-08-23 17:09:03,081 - DEBUG - Response:
+2024-08-23 17:09:03,081 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:03,081 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-23 17:09:03,082 - DEBUG - ----------
+2024-08-23 17:09:03,082 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:03] "POST /login HTTP/1.1" 200 -
+2024-08-23 17:09:03,084 - DEBUG - Request:
+2024-08-23 17:09:03,084 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-23 17:09:03,084 - DEBUG - Body: b'{"user_id": 6}'
+2024-08-23 17:09:03,084 - DEBUG - ----------
+2024-08-23 17:09:03,084 - INFO - Received add_player request
+2024-08-23 17:09:03,085 - INFO - Attempting to add player with user ID: 6
+2024-08-23 17:09:03,085 - INFO - Attempting to add player with user ID: 6
+2024-08-23 17:09:03,085 - INFO - Ensuring game exists
+2024-08-23 17:09:03,085 - DEBUG - Getting database connection
+2024-08-23 17:09:03,096 - INFO - Created new game with ID: 25
+2024-08-23 17:09:03,096 - DEBUG - Getting database connection
+2024-08-23 17:09:03,103 - INFO - Added player Mai (ID: 6) to game 25
+2024-08-23 17:09:03,103 - INFO - Successfully added player with ID: 6
+2024-08-23 17:09:03,104 - DEBUG - Response:
+2024-08-23 17:09:03,104 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:03,104 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-23 17:09:03,104 - DEBUG - ----------
+2024-08-23 17:09:03,104 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:03] "POST /add_player HTTP/1.1" 200 -
+2024-08-23 17:09:03,123 - DEBUG - Request:
+2024-08-23 17:09:03,123 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:03,124 - DEBUG - Body: b''
+2024-08-23 17:09:03,124 - DEBUG - ----------
+2024-08-23 17:09:03,124 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:03,124 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:03,124 - DEBUG - Response:
+2024-08-23 17:09:03,124 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:03,124 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:03,124 - DEBUG - ----------
+2024-08-23 17:09:03,124 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:03] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:05,164 - DEBUG - Request:
+2024-08-23 17:09:05,164 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:05,164 - DEBUG - Body: b''
+2024-08-23 17:09:05,164 - DEBUG - ----------
+2024-08-23 17:09:05,164 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:05,164 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:05,165 - DEBUG - Response:
+2024-08-23 17:09:05,165 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:05,165 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:05,165 - DEBUG - ----------
+2024-08-23 17:09:05,165 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:05] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:07,202 - DEBUG - Request:
+2024-08-23 17:09:07,202 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:07,202 - DEBUG - Body: b''
+2024-08-23 17:09:07,202 - DEBUG - ----------
+2024-08-23 17:09:07,202 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:07,203 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:07,203 - DEBUG - Response:
+2024-08-23 17:09:07,203 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:07,203 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:07,203 - DEBUG - ----------
+2024-08-23 17:09:07,203 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:07] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:08,872 - DEBUG - Request:
+2024-08-23 17:09:08,872 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 40
+Content-Type: application/json
+
+
+2024-08-23 17:09:08,873 - DEBUG - Body: b'{"username": "Domzi", "password": "123"}'
+2024-08-23 17:09:08,873 - DEBUG - ----------
+2024-08-23 17:09:08,873 - INFO - Login attempt for user: Domzi
+2024-08-23 17:09:08,873 - INFO - Login attempt for user: Domzi
+2024-08-23 17:09:08,873 - DEBUG - Getting database connection
+2024-08-23 17:09:08,873 - INFO - Successful login for user: Domzi (ID: 7)
+2024-08-23 17:09:08,873 - INFO - Successful login for user: Domzi with ID: 7
+2024-08-23 17:09:08,873 - DEBUG - Response:
+2024-08-23 17:09:08,873 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:08,873 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-23 17:09:08,873 - DEBUG - ----------
+2024-08-23 17:09:08,873 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:08] "POST /login HTTP/1.1" 200 -
+2024-08-23 17:09:08,875 - DEBUG - Request:
+2024-08-23 17:09:08,875 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-23 17:09:08,875 - DEBUG - Body: b'{"user_id": 7}'
+2024-08-23 17:09:08,875 - DEBUG - ----------
+2024-08-23 17:09:08,875 - INFO - Received add_player request
+2024-08-23 17:09:08,875 - INFO - Attempting to add player with user ID: 7
+2024-08-23 17:09:08,875 - INFO - Attempting to add player with user ID: 7
+2024-08-23 17:09:08,875 - INFO - Ensuring game exists
+2024-08-23 17:09:08,876 - DEBUG - Getting database connection
+2024-08-23 17:09:08,895 - INFO - Added player Domzi (ID: 7) to game 25
+2024-08-23 17:09:08,895 - INFO - Successfully added player with ID: 7
+2024-08-23 17:09:08,895 - DEBUG - Response:
+2024-08-23 17:09:08,895 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:08,895 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-23 17:09:08,896 - DEBUG - ----------
+2024-08-23 17:09:08,896 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:08] "POST /add_player HTTP/1.1" 200 -
+2024-08-23 17:09:08,917 - DEBUG - Request:
+2024-08-23 17:09:08,917 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:08,917 - DEBUG - Body: b''
+2024-08-23 17:09:08,917 - DEBUG - ----------
+2024-08-23 17:09:08,917 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:08,917 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:08,917 - DEBUG - Response:
+2024-08-23 17:09:08,917 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:08,917 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:08,917 - DEBUG - ----------
+2024-08-23 17:09:08,917 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:08] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:09,245 - DEBUG - Request:
+2024-08-23 17:09:09,245 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:09,245 - DEBUG - Body: b''
+2024-08-23 17:09:09,245 - DEBUG - ----------
+2024-08-23 17:09:09,245 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:09,245 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:09,245 - DEBUG - Response:
+2024-08-23 17:09:09,245 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:09,245 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:09,245 - DEBUG - ----------
+2024-08-23 17:09:09,245 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:09] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:10,957 - DEBUG - Request:
+2024-08-23 17:09:10,957 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:10,957 - DEBUG - Body: b''
+2024-08-23 17:09:10,957 - DEBUG - ----------
+2024-08-23 17:09:10,957 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:10,957 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:10,957 - DEBUG - Response:
+2024-08-23 17:09:10,957 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:10,958 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:10,958 - DEBUG - ----------
+2024-08-23 17:09:10,958 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:10] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:11,285 - DEBUG - Request:
+2024-08-23 17:09:11,285 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:11,285 - DEBUG - Body: b''
+2024-08-23 17:09:11,285 - DEBUG - ----------
+2024-08-23 17:09:11,285 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:11,285 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:11,286 - DEBUG - Response:
+2024-08-23 17:09:11,286 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:11,286 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:11,286 - DEBUG - ----------
+2024-08-23 17:09:11,286 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:11] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:12,998 - DEBUG - Request:
+2024-08-23 17:09:12,998 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:12,999 - DEBUG - Body: b''
+2024-08-23 17:09:12,999 - DEBUG - ----------
+2024-08-23 17:09:12,999 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:12,999 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:12,999 - DEBUG - Response:
+2024-08-23 17:09:12,999 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:12,999 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:12,999 - DEBUG - ----------
+2024-08-23 17:09:12,999 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:12] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:13,324 - DEBUG - Request:
+2024-08-23 17:09:13,324 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:13,324 - DEBUG - Body: b''
+2024-08-23 17:09:13,324 - DEBUG - ----------
+2024-08-23 17:09:13,324 - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:13,324 - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:13,324 - DEBUG - Response:
+2024-08-23 17:09:13,324 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:13,324 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-23 17:09:13,324 - DEBUG - ----------
+2024-08-23 17:09:13,325 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:13] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:13,358 - DEBUG - Request:
+2024-08-23 17:09:13,358 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 38
+Content-Type: application/json
+
+
+2024-08-23 17:09:13,359 - DEBUG - Body: b'{"username": "Ana", "password": "123"}'
+2024-08-23 17:09:13,359 - DEBUG - ----------
+2024-08-23 17:09:13,359 - INFO - Login attempt for user: Ana
+2024-08-23 17:09:13,359 - INFO - Login attempt for user: Ana
+2024-08-23 17:09:13,359 - DEBUG - Getting database connection
+2024-08-23 17:09:13,359 - INFO - Successful login for user: Ana (ID: 8)
+2024-08-23 17:09:13,359 - INFO - Successful login for user: Ana with ID: 8
+2024-08-23 17:09:13,359 - DEBUG - Response:
+2024-08-23 17:09:13,359 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:13,359 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-23 17:09:13,359 - DEBUG - ----------
+2024-08-23 17:09:13,359 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:13] "POST /login HTTP/1.1" 200 -
+2024-08-23 17:09:13,361 - DEBUG - Request:
+2024-08-23 17:09:13,361 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-23 17:09:13,361 - DEBUG - Body: b'{"user_id": 8}'
+2024-08-23 17:09:13,361 - DEBUG - ----------
+2024-08-23 17:09:13,361 - INFO - Received add_player request
+2024-08-23 17:09:13,361 - INFO - Attempting to add player with user ID: 8
+2024-08-23 17:09:13,362 - INFO - Attempting to add player with user ID: 8
+2024-08-23 17:09:13,362 - INFO - Ensuring game exists
+2024-08-23 17:09:13,362 - DEBUG - Getting database connection
+2024-08-23 17:09:13,381 - INFO - Added player Ana (ID: 8) to game 25
+2024-08-23 17:09:13,381 - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-23 17:09:13,381 - INFO - Successfully added player with ID: 8
+2024-08-23 17:09:13,381 - INFO - Starting initial image generation
+2024-08-23 17:09:13,381 - INFO - Generating initial image
+2024-08-23 17:09:13,680 - DEBUG - Getting database connection
+2024-08-23 17:09:13,689 - INFO - Initial image generated, moving to PROMPTING_PLAYERS status
+2024-08-23 17:09:13,689 - DEBUG - Response:
+2024-08-23 17:09:13,689 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:13,689 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-23 17:09:13,689 - DEBUG - ----------
+2024-08-23 17:09:13,690 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:13] "POST /add_player HTTP/1.1" 200 -
+2024-08-23 17:09:13,713 - DEBUG - Request:
+2024-08-23 17:09:13,713 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:13,713 - DEBUG - Body: b''
+2024-08-23 17:09:13,713 - DEBUG - ----------
+2024-08-23 17:09:13,713 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:13,713 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:13,713 - DEBUG - Response:
+2024-08-23 17:09:13,713 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:13,713 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:13,714 - DEBUG - ----------
+2024-08-23 17:09:13,714 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:13] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:13,736 - DEBUG - Request:
+2024-08-23 17:09:13,736 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:13,737 - DEBUG - Body: b''
+2024-08-23 17:09:13,737 - DEBUG - ----------
+2024-08-23 17:09:13,737 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:13,737 - INFO - Initial image retrieved
+2024-08-23 17:09:13,742 - DEBUG - Response:
+2024-08-23 17:09:13,743 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:13,743 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:13,743 - DEBUG - ----------
+2024-08-23 17:09:13,743 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:13] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:15,034 - DEBUG - Request:
+2024-08-23 17:09:15,034 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:15,034 - DEBUG - Body: b''
+2024-08-23 17:09:15,034 - DEBUG - ----------
+2024-08-23 17:09:15,035 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:15,035 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:15,035 - DEBUG - Response:
+2024-08-23 17:09:15,035 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:15,035 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:15,035 - DEBUG - ----------
+2024-08-23 17:09:15,035 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:15] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:15,050 - DEBUG - Request:
+2024-08-23 17:09:15,050 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:15,050 - DEBUG - Body: b''
+2024-08-23 17:09:15,050 - DEBUG - ----------
+2024-08-23 17:09:15,050 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:15,050 - INFO - Initial image retrieved
+2024-08-23 17:09:15,055 - DEBUG - Response:
+2024-08-23 17:09:15,055 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:15,055 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:15,055 - DEBUG - ----------
+2024-08-23 17:09:15,055 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:15] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:15,355 - DEBUG - Request:
+2024-08-23 17:09:15,356 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:15,356 - DEBUG - Body: b''
+2024-08-23 17:09:15,356 - DEBUG - ----------
+2024-08-23 17:09:15,356 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:15,356 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:15,356 - DEBUG - Response:
+2024-08-23 17:09:15,356 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:15,356 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:15,356 - DEBUG - ----------
+2024-08-23 17:09:15,356 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:15] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:15,371 - DEBUG - Request:
+2024-08-23 17:09:15,371 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:15,371 - DEBUG - Body: b''
+2024-08-23 17:09:15,371 - DEBUG - ----------
+2024-08-23 17:09:15,371 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:15,371 - INFO - Initial image retrieved
+2024-08-23 17:09:15,378 - DEBUG - Response:
+2024-08-23 17:09:15,378 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:15,378 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:15,378 - DEBUG - ----------
+2024-08-23 17:09:15,378 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:15] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:19,445 - DEBUG - Request:
+2024-08-23 17:09:19,445 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:19,445 - DEBUG - Body: b''
+2024-08-23 17:09:19,445 - DEBUG - ----------
+2024-08-23 17:09:19,445 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:19,445 - INFO - Initial image retrieved
+2024-08-23 17:09:19,451 - DEBUG - Response:
+2024-08-23 17:09:19,451 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:19,451 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:19,451 - DEBUG - ----------
+2024-08-23 17:09:19,451 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:19] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:19,497 - DEBUG - Request:
+2024-08-23 17:09:19,497 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:19,498 - DEBUG - Body: b''
+2024-08-23 17:09:19,498 - DEBUG - ----------
+2024-08-23 17:09:19,498 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:19,498 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:19,498 - DEBUG - Response:
+2024-08-23 17:09:19,498 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:19,498 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:19,498 - DEBUG - ----------
+2024-08-23 17:09:19,498 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:19] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:19,514 - DEBUG - Request:
+2024-08-23 17:09:19,514 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:19,514 - DEBUG - Body: b''
+2024-08-23 17:09:19,514 - DEBUG - ----------
+2024-08-23 17:09:19,514 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:19,514 - INFO - Initial image retrieved
+2024-08-23 17:09:19,519 - DEBUG - Response:
+2024-08-23 17:09:19,519 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:19,520 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:19,520 - DEBUG - ----------
+2024-08-23 17:09:19,520 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:19] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:19,567 - DEBUG - Request:
+2024-08-23 17:09:19,567 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 39
+Content-Type: application/json
+
+
+2024-08-23 17:09:19,567 - DEBUG - Body: b'{"player_id": 8, "player_prompt": "CD"}'
+2024-08-23 17:09:19,567 - DEBUG - ----------
+2024-08-23 17:09:19,567 - INFO - Sending prompt for user 8: CD
+2024-08-23 17:09:19,567 - DEBUG - Getting database connection
+2024-08-23 17:09:19,573 - INFO - Prompt saved for user 8
+2024-08-23 17:09:19,573 - DEBUG - All prompts sent: False
+2024-08-23 17:09:19,573 - INFO - Player 8 sent prompt: CD
+2024-08-23 17:09:19,573 - DEBUG - Response:
+2024-08-23 17:09:19,573 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:19,573 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:09:19,573 - DEBUG - ----------
+2024-08-23 17:09:19,574 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:19] "POST /send_prompt HTTP/1.1" 200 -
+2024-08-23 17:09:21,625 - DEBUG - Request:
+2024-08-23 17:09:21,625 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:21,625 - DEBUG - Body: b''
+2024-08-23 17:09:21,625 - DEBUG - ----------
+2024-08-23 17:09:21,626 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:21,626 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:21,626 - DEBUG - Response:
+2024-08-23 17:09:21,626 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:21,626 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:21,626 - DEBUG - ----------
+2024-08-23 17:09:21,626 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:21] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:23,666 - DEBUG - Request:
+2024-08-23 17:09:23,666 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:23,666 - DEBUG - Body: b''
+2024-08-23 17:09:23,666 - DEBUG - ----------
+2024-08-23 17:09:23,666 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:23,666 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:23,666 - DEBUG - Response:
+2024-08-23 17:09:23,666 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:23,666 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:23,666 - DEBUG - ----------
+2024-08-23 17:09:23,667 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:23] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:25,072 - DEBUG - Request:
+2024-08-23 17:09:25,072 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:25,072 - DEBUG - Body: b''
+2024-08-23 17:09:25,072 - DEBUG - ----------
+2024-08-23 17:09:25,072 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:25,072 - INFO - Initial image retrieved
+2024-08-23 17:09:25,078 - DEBUG - Response:
+2024-08-23 17:09:25,078 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:25,078 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:25,078 - DEBUG - ----------
+2024-08-23 17:09:25,078 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:25] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:25,126 - DEBUG - Request:
+2024-08-23 17:09:25,126 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:25,126 - DEBUG - Body: b''
+2024-08-23 17:09:25,126 - DEBUG - ----------
+2024-08-23 17:09:25,126 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:25,126 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:25,126 - DEBUG - Response:
+2024-08-23 17:09:25,126 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:25,126 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:25,126 - DEBUG - ----------
+2024-08-23 17:09:25,127 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:25] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:25,145 - DEBUG - Request:
+2024-08-23 17:09:25,145 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:25,145 - DEBUG - Body: b''
+2024-08-23 17:09:25,145 - DEBUG - ----------
+2024-08-23 17:09:25,145 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:25,145 - INFO - Initial image retrieved
+2024-08-23 17:09:25,151 - DEBUG - Response:
+2024-08-23 17:09:25,151 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:25,151 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:25,151 - DEBUG - ----------
+2024-08-23 17:09:25,151 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:25] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:25,198 - DEBUG - Request:
+2024-08-23 17:09:25,199 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 42
+Content-Type: application/json
+
+
+2024-08-23 17:09:25,199 - DEBUG - Body: b'{"player_id": 7, "player_prompt": "Hello"}'
+2024-08-23 17:09:25,199 - DEBUG - ----------
+2024-08-23 17:09:25,199 - INFO - Sending prompt for user 7: Hello
+2024-08-23 17:09:25,199 - DEBUG - Getting database connection
+2024-08-23 17:09:25,218 - INFO - Prompt saved for user 7
+2024-08-23 17:09:25,218 - DEBUG - All prompts sent: False
+2024-08-23 17:09:25,219 - INFO - Player 7 sent prompt: Hello
+2024-08-23 17:09:25,219 - DEBUG - Response:
+2024-08-23 17:09:25,219 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:25,219 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:09:25,219 - DEBUG - ----------
+2024-08-23 17:09:25,219 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:25] "POST /send_prompt HTTP/1.1" 200 -
+2024-08-23 17:09:25,236 - DEBUG - Request:
+2024-08-23 17:09:25,236 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:25,236 - DEBUG - Body: b''
+2024-08-23 17:09:25,236 - DEBUG - ----------
+2024-08-23 17:09:25,236 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:25,236 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:25,236 - DEBUG - Response:
+2024-08-23 17:09:25,237 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:25,237 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:25,237 - DEBUG - ----------
+2024-08-23 17:09:25,237 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:25] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:25,704 - DEBUG - Request:
+2024-08-23 17:09:25,704 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:25,705 - DEBUG - Body: b''
+2024-08-23 17:09:25,705 - DEBUG - ----------
+2024-08-23 17:09:25,705 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:25,705 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:25,705 - DEBUG - Response:
+2024-08-23 17:09:25,705 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:25,705 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:25,705 - DEBUG - ----------
+2024-08-23 17:09:25,705 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:25] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:27,270 - DEBUG - Request:
+2024-08-23 17:09:27,271 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:27,271 - DEBUG - Body: b''
+2024-08-23 17:09:27,271 - DEBUG - ----------
+2024-08-23 17:09:27,271 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:27,271 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:27,271 - DEBUG - Response:
+2024-08-23 17:09:27,271 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:27,271 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:27,271 - DEBUG - ----------
+2024-08-23 17:09:27,271 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:27] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:27,746 - DEBUG - Request:
+2024-08-23 17:09:27,746 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:27,746 - DEBUG - Body: b''
+2024-08-23 17:09:27,746 - DEBUG - ----------
+2024-08-23 17:09:27,746 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:27,746 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:27,746 - DEBUG - Response:
+2024-08-23 17:09:27,746 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:27,746 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:27,746 - DEBUG - ----------
+2024-08-23 17:09:27,747 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:27] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:27,953 - DEBUG - Request:
+2024-08-23 17:09:27,953 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:27,953 - DEBUG - Body: b''
+2024-08-23 17:09:27,954 - DEBUG - ----------
+2024-08-23 17:09:27,954 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:27,954 - INFO - Initial image retrieved
+2024-08-23 17:09:27,959 - DEBUG - Response:
+2024-08-23 17:09:27,959 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:27,959 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:27,959 - DEBUG - ----------
+2024-08-23 17:09:27,959 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:27] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:28,006 - DEBUG - Request:
+2024-08-23 17:09:28,006 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:28,006 - DEBUG - Body: b''
+2024-08-23 17:09:28,006 - DEBUG - ----------
+2024-08-23 17:09:28,007 - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:28,007 - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:28,007 - DEBUG - Response:
+2024-08-23 17:09:28,007 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:28,007 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-23 17:09:28,007 - DEBUG - ----------
+2024-08-23 17:09:28,007 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:28] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:29,068 - DEBUG - Request:
+2024-08-23 17:09:29,068 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:29,068 - DEBUG - Body: b''
+2024-08-23 17:09:29,068 - DEBUG - ----------
+2024-08-23 17:09:29,069 - DEBUG - Initial image retrieved: Yes
+2024-08-23 17:09:29,069 - INFO - Initial image retrieved
+2024-08-23 17:09:29,074 - DEBUG - Response:
+2024-08-23 17:09:29,074 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:29,074 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 3059298
+
+
+2024-08-23 17:09:29,074 - DEBUG - ----------
+2024-08-23 17:09:29,074 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:29] "GET /get_initial_image HTTP/1.1" 200 -
+2024-08-23 17:09:29,117 - DEBUG - Request:
+2024-08-23 17:09:29,117 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 42
+Content-Type: application/json
+
+
+2024-08-23 17:09:29,117 - DEBUG - Body: b'{"player_id": 6, "player_prompt": "World"}'
+2024-08-23 17:09:29,117 - DEBUG - ----------
+2024-08-23 17:09:29,117 - INFO - Sending prompt for user 6: World
+2024-08-23 17:09:29,117 - DEBUG - Getting database connection
+2024-08-23 17:09:29,140 - INFO - Prompt saved for user 6
+2024-08-23 17:09:29,140 - DEBUG - All prompts sent: True
+2024-08-23 17:09:29,140 - INFO - All prompts sent, moving to GENERATING_PLAYER_IMAGES status
+2024-08-23 17:09:29,140 - INFO - Player 6 sent prompt: World
+2024-08-23 17:09:29,140 - INFO - Generating player images
+2024-08-23 17:09:29,140 - DEBUG - Response:
+2024-08-23 17:09:29,140 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:29,140 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:09:29,140 - DEBUG - ----------
+2024-08-23 17:09:29,141 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:29] "POST /send_prompt HTTP/1.1" 200 -
+2024-08-23 17:09:29,309 - DEBUG - Request:
+2024-08-23 17:09:29,309 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:29,309 - DEBUG - Body: b''
+2024-08-23 17:09:29,309 - DEBUG - ----------
+2024-08-23 17:09:29,439 - DEBUG - Getting database connection
+2024-08-23 17:09:29,445 - DEBUG - Generated image for player 6
+2024-08-23 17:09:29,735 - DEBUG - Getting database connection
+2024-08-23 17:09:29,740 - DEBUG - Generated image for player 7
+2024-08-23 17:09:29,782 - DEBUG - Request:
+2024-08-23 17:09:29,782 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:29,782 - DEBUG - Body: b''
+2024-08-23 17:09:29,782 - DEBUG - ----------
+2024-08-23 17:09:30,033 - DEBUG - Getting database connection
+2024-08-23 17:09:30,039 - DEBUG - Generated image for player 8
+2024-08-23 17:09:30,039 - INFO - All player images generated, moving to VOTING status
+2024-08-23 17:09:30,039 - DEBUG - Game status: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:30,039 - INFO - Game status requested: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:30,039 - DEBUG - Game status: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:30,039 - DEBUG - Response:
+2024-08-23 17:09:30,039 - INFO - Game status requested: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:30,039 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:30,039 - DEBUG - Response:
+2024-08-23 17:09:30,040 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 92
+
+
+2024-08-23 17:09:30,040 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:30,040 - DEBUG - ----------
+2024-08-23 17:09:30,040 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 92
+
+
+2024-08-23 17:09:30,040 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:30] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:30,040 - DEBUG - ----------
+2024-08-23 17:09:30,040 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:30] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:30,062 - DEBUG - Request:
+2024-08-23 17:09:30,062 - DEBUG - Request:
+2024-08-23 17:09:30,063 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:30,063 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:30,063 - DEBUG - Body: b''
+2024-08-23 17:09:30,063 - DEBUG - Body: b''
+2024-08-23 17:09:30,063 - DEBUG - ----------
+2024-08-23 17:09:30,063 - DEBUG - ----------
+2024-08-23 17:09:30,063 - DEBUG - Player images retrieved: 3
+2024-08-23 17:09:30,063 - INFO - Player images retrieved
+2024-08-23 17:09:30,068 - DEBUG - Player images retrieved: 3
+2024-08-23 17:09:30,080 - DEBUG - Response:
+2024-08-23 17:09:30,081 - INFO - Player images retrieved
+2024-08-23 17:09:30,081 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:30,097 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 9177900
+
+
+2024-08-23 17:09:30,099 - DEBUG - Response:
+2024-08-23 17:09:30,099 - DEBUG - ----------
+2024-08-23 17:09:30,099 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:30,099 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:30] "GET /get_player_images HTTP/1.1" 200 -
+2024-08-23 17:09:30,099 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 9177900
+
+
+2024-08-23 17:09:30,099 - DEBUG - ----------
+2024-08-23 17:09:30,099 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:30] "GET /get_player_images HTTP/1.1" 200 -
+2024-08-23 17:09:30,181 - DEBUG - Request:
+2024-08-23 17:09:30,181 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:30,181 - DEBUG - Body: b''
+2024-08-23 17:09:30,181 - DEBUG - ----------
+2024-08-23 17:09:30,181 - DEBUG - Game status: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:30,181 - INFO - Game status requested: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-23 17:09:30,182 - DEBUG - Response:
+2024-08-23 17:09:30,182 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:30,182 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 92
+
+
+2024-08-23 17:09:30,182 - DEBUG - ----------
+2024-08-23 17:09:30,182 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:30] "GET /game_status HTTP/1.1" 200 -
+2024-08-23 17:09:30,201 - DEBUG - Request:
+2024-08-23 17:09:30,202 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:30,202 - DEBUG - Body: b''
+2024-08-23 17:09:30,202 - DEBUG - ----------
+2024-08-23 17:09:30,202 - DEBUG - Player images retrieved: 3
+2024-08-23 17:09:30,202 - INFO - Player images retrieved
+2024-08-23 17:09:30,217 - DEBUG - Response:
+2024-08-23 17:09:30,218 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:30,218 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 9177900
+
+
+2024-08-23 17:09:30,218 - DEBUG - ----------
+2024-08-23 17:09:30,218 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:30] "GET /get_player_images HTTP/1.1" 200 -
+2024-08-23 17:09:37,447 - DEBUG - Request:
+2024-08-23 17:09:37,447 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:37,448 - DEBUG - Body: b''
+2024-08-23 17:09:37,448 - DEBUG - ----------
+2024-08-23 17:09:37,448 - DEBUG - Player images retrieved: 3
+2024-08-23 17:09:37,448 - INFO - Player images retrieved
+2024-08-23 17:09:37,463 - DEBUG - Response:
+2024-08-23 17:09:37,463 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:37,463 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 9177900
+
+
+2024-08-23 17:09:37,463 - DEBUG - ----------
+2024-08-23 17:09:37,463 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:37] "GET /get_player_images HTTP/1.1" 200 -
+2024-08-23 17:09:37,530 - DEBUG - Request:
+2024-08-23 17:09:37,530 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 37
+Content-Type: application/json
+
+
+2024-08-23 17:09:37,531 - DEBUG - Body: b'{"player_id": 8, "voted_for_id": "6"}'
+2024-08-23 17:09:37,531 - DEBUG - ----------
+2024-08-23 17:09:37,531 - INFO - Player None voted for Player 6
+2024-08-23 17:09:37,531 - DEBUG - Response:
+2024-08-23 17:09:37,531 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:37,531 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:09:37,531 - DEBUG - ----------
+2024-08-23 17:09:37,531 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:37] "POST /send_vote HTTP/1.1" 200 -
+2024-08-23 17:09:41,526 - DEBUG - Request:
+2024-08-23 17:09:41,526 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:41,526 - DEBUG - Body: b''
+2024-08-23 17:09:41,526 - DEBUG - ----------
+2024-08-23 17:09:41,526 - DEBUG - Player images retrieved: 3
+2024-08-23 17:09:41,526 - INFO - Player images retrieved
+2024-08-23 17:09:41,545 - DEBUG - Response:
+2024-08-23 17:09:41,545 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:41,545 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 9177900
+
+
+2024-08-23 17:09:41,545 - DEBUG - ----------
+2024-08-23 17:09:41,545 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:41] "GET /get_player_images HTTP/1.1" 200 -
+2024-08-23 17:09:41,608 - DEBUG - Request:
+2024-08-23 17:09:41,608 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 37
+Content-Type: application/json
+
+
+2024-08-23 17:09:41,608 - DEBUG - Body: b'{"player_id": 7, "voted_for_id": "6"}'
+2024-08-23 17:09:41,608 - DEBUG - ----------
+2024-08-23 17:09:41,608 - INFO - Player None voted for Player 6
+2024-08-23 17:09:41,609 - DEBUG - Response:
+2024-08-23 17:09:41,609 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:41,609 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:09:41,609 - DEBUG - ----------
+2024-08-23 17:09:41,609 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:41] "POST /send_vote HTTP/1.1" 200 -
+2024-08-23 17:09:43,969 - DEBUG - Request:
+2024-08-23 17:09:43,969 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-23 17:09:43,969 - DEBUG - Body: b''
+2024-08-23 17:09:43,969 - DEBUG - ----------
+2024-08-23 17:09:43,969 - DEBUG - Player images retrieved: 3
+2024-08-23 17:09:43,969 - INFO - Player images retrieved
+2024-08-23 17:09:43,990 - DEBUG - Response:
+2024-08-23 17:09:43,990 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:43,990 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 9177900
+
+
+2024-08-23 17:09:43,990 - DEBUG - ----------
+2024-08-23 17:09:43,991 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:43] "GET /get_player_images HTTP/1.1" 200 -
+2024-08-23 17:09:44,118 - DEBUG - Request:
+2024-08-23 17:09:44,118 - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 37
+Content-Type: application/json
+
+
+2024-08-23 17:09:44,118 - DEBUG - Body: b'{"player_id": 6, "voted_for_id": "8"}'
+2024-08-23 17:09:44,118 - DEBUG - ----------
+2024-08-23 17:09:44,118 - INFO - Player None voted for Player 8
+2024-08-23 17:09:44,118 - DEBUG - Response:
+2024-08-23 17:09:44,118 - DEBUG - Response status: 200 OK
+2024-08-23 17:09:44,118 - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-23 17:09:44,118 - DEBUG - ----------
+2024-08-23 17:09:44,119 - INFO - 127.0.0.1 - - [23/Aug/2024 17:09:44] "POST /send_vote HTTP/1.1" 200 -
