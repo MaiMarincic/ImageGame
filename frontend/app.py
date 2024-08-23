@@ -1,4 +1,5 @@
 import streamlit as st
+import io
 import time
 import requests
 import base64
@@ -10,7 +11,7 @@ st.set_page_config(page_title="PromptGen", page_icon="Images/icon.svg")
 
 # Backend URL
 BACKEND_URL = "http://127.0.0.1:5000"
-
+RUN_ONCE = True
 # Initialize session state
 if 'current_screen' not in st.session_state:
     st.session_state['current_screen'] = 'login'
@@ -92,7 +93,6 @@ def get_initial_image():
     if response.status_code == 200:
         data = response.json()
         image_data = data.get("image")
-        st.error(image_data)
         if image_data:
             try:
                 image_bytes = base64.b64decode(image_data)
@@ -118,7 +118,7 @@ def check_and_update_game_status():
         status = get_game_status()
         st.session_state['last_status_check'] = current_time
         if status:
-            if status['status'] == 'PROMPTING_PLAYERS' and st.session_state['current_screen'] in ['waiting_for_players', 'waiting_for_generation']:
+            if status['status'] == 'PROMPTING_PLAYERS' and st.session_state['current_screen'] in ['waiting_for_players']:
                 st.session_state['current_screen'] = 'initial_image'
                 st.rerun()
             elif status['status'] == 'VOTING' and st.session_state['current_screen'] in ['waiting_for_generation', 'initial_image']:
@@ -201,7 +201,9 @@ elif st.session_state['current_screen'] == 'waiting_for_players':
 
 elif st.session_state['current_screen'] == 'initial_image':
     header()
-    initial_image = get_initial_image()
+    if RUN_ONCE:
+        initial_image = get_initial_image()
+        RUN_ONCE = False
     if initial_image:
         st.image(initial_image, caption="Initial Image", use_column_width=True)
         prompt = st.text_input("Enter your prompt based on this image:")

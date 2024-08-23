@@ -1,6 +1,6 @@
 import os
 import logging
-from flask import Flask, request, jsonify, session
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import threading
 from game_logic import Game, GameStatus
@@ -8,7 +8,6 @@ import traceback
 
 app = Flask(__name__)
 CORS(app)
-app.secret_key = os.urandom(24)  # For session management
 NUMBER_OF_PLAYERS = 3
 DB_PATH = "game_database.db"
 game = Game(NUMBER_OF_PLAYERS, DB_PATH)
@@ -135,15 +134,15 @@ def get_initial_image():
 def send_prompt():
     try:
         data = request.json
+        player_id = data.get('player_id')
         player_prompt = data.get('player_prompt')
         
         if not player_prompt:
             logger.error("Missing player_prompt in request")
             return jsonify({"error": "Missing player_prompt"}), 400
         
-        user_id = session['user_id']
-        game.send_prompt(user_id, player_prompt)
-        logger.info(f"Player {user_id} sent prompt: {player_prompt}")
+        game.send_prompt(player_id, player_prompt)
+        logger.info(f"Player {player_id} sent prompt: {player_prompt}")
         
         if game.status == GameStatus.GENERATING_PLAYER_IMAGES:
             threading.Thread(target=game.generate_player_images).start()
@@ -186,16 +185,12 @@ def get_player_images():
 def send_vote():
     try:
         data = request.json
+        user_id = data.get('user_id')
         voted_for_id = data.get('voted_for_id')
         
         if not voted_for_id:
             logger.error("Missing voted_for_id in request")
             return jsonify({"error": "Missing voted_for_id"}), 400
-        
-        user_id = session['user_id']
-        if not game.cast_vote(user_id, voted_for_id):
-            logger.warning(f"Vote cast failed for player {user_id}")
-            return jsonify({"error": "Failed to cast vote"}), 400
         
         logger.info(f"Player {user_id} voted for Player {voted_for_id}")
         
@@ -223,7 +218,6 @@ def send_vote():
 
 @app.route('/logout', methods=['POST'])
 def logout():
-    session.pop('user_id', None)
     return jsonify({"success": True})
 
 if __name__ == '__main__':
