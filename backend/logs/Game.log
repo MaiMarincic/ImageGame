@@ -1,0 +1,287 @@
+2024-08-24 19:16:56,208 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:16:56,659 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:17:03,301 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:17:03,301 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:17:03,301 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:03,307 - MainGame - INFO - Created new game with ID: 29
+2024-08-24 19:17:03,307 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:03,312 - MainGame - INFO - Added player Mai (ID: 6) to game 29
+2024-08-24 19:17:03,316 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:17:03,316 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:17:03,316 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:03,322 - MainGame - INFO - Added player Domzi (ID: 7) to game 29
+2024-08-24 19:17:03,326 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:17:03,326 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:17:03,326 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:03,331 - MainGame - INFO - Added player Ana (ID: 8) to game 29
+2024-08-24 19:17:03,331 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:17:03,331 - MainGame - INFO - Generating initial image
+2024-08-24 19:17:35,390 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:17:40,747 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:17:41,208 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:17:43,525 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:17:43,525 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:17:43,525 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:43,545 - MainGame - INFO - Created new game with ID: 30
+2024-08-24 19:17:43,545 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:43,550 - MainGame - INFO - Added player Mai (ID: 6) to game 30
+2024-08-24 19:17:43,554 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:17:43,554 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:17:43,554 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:43,559 - MainGame - INFO - Added player Domzi (ID: 7) to game 30
+2024-08-24 19:17:43,563 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:17:43,563 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:17:43,563 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:17:43,568 - MainGame - INFO - Added player Ana (ID: 8) to game 30
+2024-08-24 19:17:43,568 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:17:43,569 - MainGame - INFO - Generating initial image
+2024-08-24 19:18:22,026 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:18:25,705 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:18:26,164 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:18:28,245 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:18:28,245 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:18:28,245 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:18:28,264 - MainGame - INFO - Created new game with ID: 31
+2024-08-24 19:18:28,264 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:18:28,269 - MainGame - INFO - Added player Mai (ID: 6) to game 31
+2024-08-24 19:18:28,275 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:18:28,275 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:18:28,275 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:18:28,280 - MainGame - INFO - Added player Domzi (ID: 7) to game 31
+2024-08-24 19:18:28,285 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:18:28,285 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:18:28,285 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:18:28,291 - MainGame - INFO - Added player Ana (ID: 8) to game 31
+2024-08-24 19:18:28,291 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:18:28,291 - MainGame - INFO - Generating initial image
+2024-08-24 19:19:21,102 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:19:27,987 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:19:28,445 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:19:30,819 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:19:30,819 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:19:30,819 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:30,839 - MainGame - INFO - Created new game with ID: 32
+2024-08-24 19:19:30,839 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:30,844 - MainGame - INFO - Added player Mai (ID: 6) to game 32
+2024-08-24 19:19:30,848 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:19:30,848 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:19:30,848 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:30,853 - MainGame - INFO - Added player Domzi (ID: 7) to game 32
+2024-08-24 19:19:30,858 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:19:30,858 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:19:30,858 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:30,863 - MainGame - INFO - Added player Ana (ID: 8) to game 32
+2024-08-24 19:19:30,863 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:19:30,863 - MainGame - INFO - Generating initial image
+2024-08-24 19:19:43,063 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:19:49,949 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:19:50,411 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:19:52,081 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:19:52,081 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:19:52,081 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:52,100 - MainGame - INFO - Created new game with ID: 33
+2024-08-24 19:19:52,100 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:52,106 - MainGame - INFO - Added player Mai (ID: 6) to game 33
+2024-08-24 19:19:52,111 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:19:52,111 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:19:52,111 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:52,116 - MainGame - INFO - Added player Domzi (ID: 7) to game 33
+2024-08-24 19:19:52,121 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:19:52,121 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:19:52,121 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:19:52,126 - MainGame - INFO - Added player Ana (ID: 8) to game 33
+2024-08-24 19:19:52,126 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:19:52,126 - MainGame - INFO - Generating initial image
+2024-08-24 19:20:21,158 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:20:24,484 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:20:24,964 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:20:26,504 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:20:26,504 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:20:26,504 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:20:26,523 - MainGame - INFO - Created new game with ID: 34
+2024-08-24 19:20:26,524 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:20:26,529 - MainGame - INFO - Added player Mai (ID: 6) to game 34
+2024-08-24 19:20:26,534 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:20:26,534 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:20:26,534 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:20:26,539 - MainGame - INFO - Added player Domzi (ID: 7) to game 34
+2024-08-24 19:20:26,543 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:20:26,543 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:20:26,543 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:20:26,548 - MainGame - INFO - Added player Ana (ID: 8) to game 34
+2024-08-24 19:20:26,548 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:20:26,549 - MainGame - INFO - Generating initial image
+2024-08-24 19:22:01,101 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:22:04,639 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:22:05,105 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:22:06,919 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:22:06,919 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:22:06,919 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:22:06,925 - MainGame - INFO - Created new game with ID: 35
+2024-08-24 19:22:06,925 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:22:06,930 - MainGame - INFO - Added player Mai (ID: 6) to game 35
+2024-08-24 19:22:06,935 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:22:06,935 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:22:06,935 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:22:06,940 - MainGame - INFO - Added player Domzi (ID: 7) to game 35
+2024-08-24 19:22:06,945 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:22:06,945 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:22:06,945 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:22:06,950 - MainGame - INFO - Added player Ana (ID: 8) to game 35
+2024-08-24 19:22:06,950 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:22:06,950 - MainGame - INFO - Generating initial image
+2024-08-24 19:23:15,092 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:23:29,706 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:23:34,873 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:23:35,327 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:23:37,875 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:23:37,875 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:23:37,875 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:23:37,894 - MainGame - INFO - Created new game with ID: 36
+2024-08-24 19:23:37,894 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:23:37,900 - MainGame - INFO - Added player Mai (ID: 6) to game 36
+2024-08-24 19:23:37,905 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:23:37,905 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:23:37,905 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:23:37,910 - MainGame - INFO - Added player Domzi (ID: 7) to game 36
+2024-08-24 19:23:37,915 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:23:37,915 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:23:37,915 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:23:37,920 - MainGame - INFO - Added player Ana (ID: 8) to game 36
+2024-08-24 19:23:37,920 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:23:37,920 - MainGame - INFO - Generating initial image
+2024-08-24 19:24:33,242 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:24:39,928 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:24:40,376 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 19:24:41,763 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:24:41,763 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:24:41,763 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:24:41,782 - MainGame - INFO - Created new game with ID: 37
+2024-08-24 19:24:41,782 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:24:41,787 - MainGame - INFO - Added player Mai (ID: 6) to game 37
+2024-08-24 19:24:41,792 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:24:41,792 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:24:41,792 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:24:41,797 - MainGame - INFO - Added player Domzi (ID: 7) to game 37
+2024-08-24 19:24:41,801 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:24:41,801 - MainGame - INFO - Ensuring game exists
+2024-08-24 19:24:41,801 - MainGame - DEBUG - Getting database connection
+2024-08-24 19:24:41,807 - MainGame - INFO - Added player Ana (ID: 8) to game 37
+2024-08-24 19:24:41,807 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 19:24:41,807 - MainGame - INFO - Generating initial image
+2024-08-24 20:09:16,087 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 20:09:16,538 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 20:09:24,385 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 20:09:24,385 - MainGame - INFO - Ensuring game exists
+2024-08-24 20:09:24,385 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:09:24,405 - MainGame - INFO - Created new game with ID: 38
+2024-08-24 20:09:24,405 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:09:24,410 - MainGame - INFO - Added player Mai (ID: 6) to game 38
+2024-08-24 20:09:24,415 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 20:09:24,415 - MainGame - INFO - Ensuring game exists
+2024-08-24 20:09:24,415 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:09:24,420 - MainGame - INFO - Added player Domzi (ID: 7) to game 38
+2024-08-24 20:09:24,424 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 20:09:24,424 - MainGame - INFO - Ensuring game exists
+2024-08-24 20:09:24,424 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:09:24,430 - MainGame - INFO - Added player Ana (ID: 8) to game 38
+2024-08-24 20:09:24,430 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 20:09:24,430 - MainGame - INFO - Generating initial image
+2024-08-24 20:09:37,524 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:09:37,530 - MainGame - INFO - Initial image generated, moving to PROMPTING_PLAYERS status
+2024-08-24 20:10:35,433 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 20:10:35,881 - MainGame - INFO - Initializing game with 3 players and database at Database/game_database.db
+2024-08-24 20:10:51,438 - MainGame - INFO - Login attempt for user: Mai
+2024-08-24 20:10:51,438 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:10:51,439 - MainGame - INFO - Successful login for user: Mai (ID: 6)
+2024-08-24 20:10:51,441 - MainGame - INFO - Attempting to add player with user ID: 6
+2024-08-24 20:10:51,441 - MainGame - INFO - Ensuring game exists
+2024-08-24 20:10:51,441 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:10:51,461 - MainGame - INFO - Created new game with ID: 39
+2024-08-24 20:10:51,461 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:10:51,466 - MainGame - INFO - Added player Mai (ID: 6) to game 39
+2024-08-24 20:10:51,487 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:53,523 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:55,567 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:55,821 - MainGame - INFO - Login attempt for user: Ana
+2024-08-24 20:10:55,821 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:10:55,822 - MainGame - INFO - Successful login for user: Ana (ID: 8)
+2024-08-24 20:10:55,824 - MainGame - INFO - Attempting to add player with user ID: 8
+2024-08-24 20:10:55,824 - MainGame - INFO - Ensuring game exists
+2024-08-24 20:10:55,824 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:10:55,847 - MainGame - INFO - Added player Ana (ID: 8) to game 39
+2024-08-24 20:10:55,866 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:57,610 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:57,904 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:59,653 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:59,940 - MainGame - DEBUG - Game status: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:01,152 - MainGame - INFO - Login attempt for user: Domzi
+2024-08-24 20:11:01,152 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:11:01,153 - MainGame - INFO - Successful login for user: Domzi (ID: 7)
+2024-08-24 20:11:01,155 - MainGame - INFO - Attempting to add player with user ID: 7
+2024-08-24 20:11:01,155 - MainGame - INFO - Ensuring game exists
+2024-08-24 20:11:01,155 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:11:01,175 - MainGame - INFO - Added player Domzi (ID: 7) to game 39
+2024-08-24 20:11:01,175 - MainGame - INFO - All players added, moving to GENERATING_INITIAL_IMAGE status
+2024-08-24 20:11:01,175 - MainGame - INFO - Generating initial image
+2024-08-24 20:11:13,476 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:11:13,482 - MainGame - INFO - Initial image generated, moving to PROMPTING_PLAYERS status
+2024-08-24 20:11:13,482 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,483 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,504 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,504 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:13,511 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:13,531 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:13,573 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,574 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:27,780 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:27,826 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:27,885 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:27,928 - MainGame - INFO - Sending prompt for user 7: Horse and a mummy at the alter
+2024-08-24 20:11:27,928 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:11:27,947 - MainGame - INFO - Prompt saved for user 7
+2024-08-24 20:11:27,947 - MainGame - DEBUG - All prompts sent: False
+2024-08-24 20:11:29,996 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:32,033 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:34,070 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:36,112 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:37,785 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:37,830 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:37,874 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:37,918 - MainGame - INFO - Sending prompt for user 8: wings of ra
+2024-08-24 20:11:37,918 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:11:37,938 - MainGame - INFO - Prompt saved for user 8
+2024-08-24 20:11:37,938 - MainGame - DEBUG - All prompts sent: False
+2024-08-24 20:11:38,150 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:39,988 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:40,193 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:42,026 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:42,230 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:44,069 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:44,267 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:46,070 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:46,113 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:46,119 - MainGame - DEBUG - Game status: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:46,151 - MainGame - DEBUG - Initial image retrieved: Yes
+2024-08-24 20:11:46,201 - MainGame - INFO - Sending prompt for user 6: best day of my life
+2024-08-24 20:11:46,201 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:11:46,221 - MainGame - INFO - Prompt saved for user 6
+2024-08-24 20:11:46,221 - MainGame - DEBUG - All prompts sent: True
+2024-08-24 20:11:46,221 - MainGame - INFO - All prompts sent, moving to GENERATING_PLAYER_IMAGES status
+2024-08-24 20:11:46,221 - MainGame - INFO - Generating player images
+2024-08-24 20:11:59,375 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:11:59,395 - MainGame - DEBUG - Generated image for player 6
+2024-08-24 20:12:12,169 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:12:12,188 - MainGame - DEBUG - Generated image for player 8
+2024-08-24 20:12:25,049 - MainGame - DEBUG - Getting database connection
+2024-08-24 20:12:25,069 - MainGame - DEBUG - Generated image for player 7
+2024-08-24 20:12:25,069 - MainGame - INFO - All player images generated, moving to VOTING status
+2024-08-24 20:12:25,069 - MainGame - DEBUG - Game status: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:12:25,069 - MainGame - DEBUG - Game status: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:12:25,069 - MainGame - DEBUG - Game status: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:12:25,093 - MainGame - DEBUG - Player images retrieved: 3
+2024-08-24 20:12:25,112 - MainGame - DEBUG - Player images retrieved: 3
+2024-08-24 20:12:25,113 - MainGame - DEBUG - Player images retrieved: 3
+2024-08-24 20:12:34,783 - MainGame - DEBUG - Player images retrieved: 3
+2024-08-24 20:12:40,576 - MainGame - DEBUG - Player images retrieved: 3
+2024-08-24 20:12:43,274 - MainGame - DEBUG - Player images retrieved: 3

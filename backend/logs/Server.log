@@ -1,0 +1,1697 @@
+2024-08-24 19:17:03,300 - Server - DEBUG - Request:
+2024-08-24 19:17:03,300 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:17:03,300 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:17:03,300 - Server - DEBUG - ----------
+2024-08-24 19:17:03,300 - Server - INFO - Received add_player request
+2024-08-24 19:17:03,301 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:17:03,312 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:17:03,312 - Server - DEBUG - Response:
+2024-08-24 19:17:03,312 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:17:03,312 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:17:03,312 - Server - DEBUG - ----------
+2024-08-24 19:17:03,316 - Server - DEBUG - Request:
+2024-08-24 19:17:03,316 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:17:03,316 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:17:03,316 - Server - DEBUG - ----------
+2024-08-24 19:17:03,316 - Server - INFO - Received add_player request
+2024-08-24 19:17:03,316 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:17:03,322 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:17:03,322 - Server - DEBUG - Response:
+2024-08-24 19:17:03,322 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:17:03,322 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:17:03,322 - Server - DEBUG - ----------
+2024-08-24 19:17:03,325 - Server - DEBUG - Request:
+2024-08-24 19:17:03,325 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:17:03,326 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:17:03,326 - Server - DEBUG - ----------
+2024-08-24 19:17:03,326 - Server - INFO - Received add_player request
+2024-08-24 19:17:03,326 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:17:03,331 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:17:03,331 - Server - INFO - Starting initial image generation
+2024-08-24 19:17:03,942 - Server - ERROR - Error generating initial image: 'data'
+2024-08-24 19:17:03,942 - Server - DEBUG - Response:
+2024-08-24 19:17:03,942 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:17:03,942 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 56
+
+
+2024-08-24 19:17:03,942 - Server - DEBUG - ----------
+2024-08-24 19:17:43,525 - Server - DEBUG - Request:
+2024-08-24 19:17:43,525 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:17:43,525 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:17:43,525 - Server - DEBUG - ----------
+2024-08-24 19:17:43,525 - Server - INFO - Received add_player request
+2024-08-24 19:17:43,525 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:17:43,550 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:17:43,550 - Server - DEBUG - Response:
+2024-08-24 19:17:43,550 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:17:43,550 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:17:43,550 - Server - DEBUG - ----------
+2024-08-24 19:17:43,554 - Server - DEBUG - Request:
+2024-08-24 19:17:43,554 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:17:43,554 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:17:43,554 - Server - DEBUG - ----------
+2024-08-24 19:17:43,554 - Server - INFO - Received add_player request
+2024-08-24 19:17:43,554 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:17:43,559 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:17:43,559 - Server - DEBUG - Response:
+2024-08-24 19:17:43,559 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:17:43,560 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:17:43,560 - Server - DEBUG - ----------
+2024-08-24 19:17:43,563 - Server - DEBUG - Request:
+2024-08-24 19:17:43,563 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:17:43,563 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:17:43,563 - Server - DEBUG - ----------
+2024-08-24 19:17:43,563 - Server - INFO - Received add_player request
+2024-08-24 19:17:43,563 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:17:43,569 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:17:43,569 - Server - INFO - Starting initial image generation
+2024-08-24 19:17:43,821 - Server - ERROR - Error generating initial image: 'Logger' object is not callable
+2024-08-24 19:17:43,821 - Server - DEBUG - Response:
+2024-08-24 19:17:43,821 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:17:43,821 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 81
+
+
+2024-08-24 19:17:43,821 - Server - DEBUG - ----------
+2024-08-24 19:18:28,244 - Server - DEBUG - Request:
+2024-08-24 19:18:28,244 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:18:28,244 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:18:28,244 - Server - DEBUG - ----------
+2024-08-24 19:18:28,244 - Server - INFO - Received add_player request
+2024-08-24 19:18:28,244 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:18:28,269 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:18:28,270 - Server - DEBUG - Response:
+2024-08-24 19:18:28,270 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:18:28,270 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:18:28,270 - Server - DEBUG - ----------
+2024-08-24 19:18:28,275 - Server - DEBUG - Request:
+2024-08-24 19:18:28,275 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:18:28,275 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:18:28,275 - Server - DEBUG - ----------
+2024-08-24 19:18:28,275 - Server - INFO - Received add_player request
+2024-08-24 19:18:28,275 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:18:28,280 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:18:28,280 - Server - DEBUG - Response:
+2024-08-24 19:18:28,281 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:18:28,281 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:18:28,281 - Server - DEBUG - ----------
+2024-08-24 19:18:28,285 - Server - DEBUG - Request:
+2024-08-24 19:18:28,285 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:18:28,285 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:18:28,285 - Server - DEBUG - ----------
+2024-08-24 19:18:28,285 - Server - INFO - Received add_player request
+2024-08-24 19:18:28,285 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:18:28,291 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:18:28,291 - Server - INFO - Starting initial image generation
+2024-08-24 19:18:28,291 - Server - ERROR - Error generating initial image: 'Logger' object is not callable
+2024-08-24 19:18:28,291 - Server - DEBUG - Response:
+2024-08-24 19:18:28,291 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:18:28,291 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 81
+
+
+2024-08-24 19:18:28,291 - Server - DEBUG - ----------
+2024-08-24 19:19:30,819 - Server - DEBUG - Request:
+2024-08-24 19:19:30,819 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:19:30,819 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:19:30,819 - Server - DEBUG - ----------
+2024-08-24 19:19:30,819 - Server - INFO - Received add_player request
+2024-08-24 19:19:30,819 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:19:30,844 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:19:30,844 - Server - DEBUG - Response:
+2024-08-24 19:19:30,844 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:19:30,844 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:19:30,844 - Server - DEBUG - ----------
+2024-08-24 19:19:30,848 - Server - DEBUG - Request:
+2024-08-24 19:19:30,848 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:19:30,848 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:19:30,848 - Server - DEBUG - ----------
+2024-08-24 19:19:30,848 - Server - INFO - Received add_player request
+2024-08-24 19:19:30,848 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:19:30,853 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:19:30,853 - Server - DEBUG - Response:
+2024-08-24 19:19:30,853 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:19:30,854 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:19:30,854 - Server - DEBUG - ----------
+2024-08-24 19:19:30,857 - Server - DEBUG - Request:
+2024-08-24 19:19:30,857 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:19:30,857 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:19:30,857 - Server - DEBUG - ----------
+2024-08-24 19:19:30,858 - Server - INFO - Received add_player request
+2024-08-24 19:19:30,858 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:19:30,863 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:19:30,863 - Server - INFO - Starting initial image generation
+2024-08-24 19:19:31,450 - Server - ERROR - Error generating initial image: 'Logger' object is not callable
+2024-08-24 19:19:31,451 - Server - DEBUG - Response:
+2024-08-24 19:19:31,451 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:19:31,451 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 81
+
+
+2024-08-24 19:19:31,451 - Server - DEBUG - ----------
+2024-08-24 19:19:52,080 - Server - DEBUG - Request:
+2024-08-24 19:19:52,080 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:19:52,081 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:19:52,081 - Server - DEBUG - ----------
+2024-08-24 19:19:52,081 - Server - INFO - Received add_player request
+2024-08-24 19:19:52,081 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:19:52,106 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:19:52,106 - Server - DEBUG - Response:
+2024-08-24 19:19:52,106 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:19:52,106 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:19:52,106 - Server - DEBUG - ----------
+2024-08-24 19:19:52,111 - Server - DEBUG - Request:
+2024-08-24 19:19:52,111 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:19:52,111 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:19:52,111 - Server - DEBUG - ----------
+2024-08-24 19:19:52,111 - Server - INFO - Received add_player request
+2024-08-24 19:19:52,111 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:19:52,116 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:19:52,116 - Server - DEBUG - Response:
+2024-08-24 19:19:52,116 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:19:52,116 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:19:52,116 - Server - DEBUG - ----------
+2024-08-24 19:19:52,121 - Server - DEBUG - Request:
+2024-08-24 19:19:52,121 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:19:52,121 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:19:52,121 - Server - DEBUG - ----------
+2024-08-24 19:19:52,121 - Server - INFO - Received add_player request
+2024-08-24 19:19:52,121 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:19:52,126 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:19:52,126 - Server - INFO - Starting initial image generation
+2024-08-24 19:19:52,382 - Server - ERROR - Error generating initial image: 'data'
+2024-08-24 19:19:52,382 - Server - DEBUG - Response:
+2024-08-24 19:19:52,383 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:19:52,383 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 56
+
+
+2024-08-24 19:19:52,383 - Server - DEBUG - ----------
+2024-08-24 19:20:26,503 - Server - DEBUG - Request:
+2024-08-24 19:20:26,504 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:20:26,504 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:20:26,504 - Server - DEBUG - ----------
+2024-08-24 19:20:26,504 - Server - INFO - Received add_player request
+2024-08-24 19:20:26,504 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:20:26,529 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:20:26,529 - Server - DEBUG - Response:
+2024-08-24 19:20:26,529 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:20:26,529 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:20:26,529 - Server - DEBUG - ----------
+2024-08-24 19:20:26,533 - Server - DEBUG - Request:
+2024-08-24 19:20:26,534 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:20:26,534 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:20:26,534 - Server - DEBUG - ----------
+2024-08-24 19:20:26,534 - Server - INFO - Received add_player request
+2024-08-24 19:20:26,534 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:20:26,539 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:20:26,539 - Server - DEBUG - Response:
+2024-08-24 19:20:26,539 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:20:26,539 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:20:26,539 - Server - DEBUG - ----------
+2024-08-24 19:20:26,543 - Server - DEBUG - Request:
+2024-08-24 19:20:26,543 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:20:26,543 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:20:26,543 - Server - DEBUG - ----------
+2024-08-24 19:20:26,543 - Server - INFO - Received add_player request
+2024-08-24 19:20:26,543 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:20:26,549 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:20:26,549 - Server - INFO - Starting initial image generation
+2024-08-24 19:20:27,075 - Server - ERROR - Error generating initial image: 'data'
+2024-08-24 19:20:27,075 - Server - DEBUG - Response:
+2024-08-24 19:20:27,075 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:20:27,075 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 56
+
+
+2024-08-24 19:20:27,075 - Server - DEBUG - ----------
+2024-08-24 19:22:06,918 - Server - DEBUG - Request:
+2024-08-24 19:22:06,918 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:22:06,918 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:22:06,918 - Server - DEBUG - ----------
+2024-08-24 19:22:06,919 - Server - INFO - Received add_player request
+2024-08-24 19:22:06,919 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:22:06,930 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:22:06,931 - Server - DEBUG - Response:
+2024-08-24 19:22:06,931 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:22:06,931 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:22:06,931 - Server - DEBUG - ----------
+2024-08-24 19:22:06,935 - Server - DEBUG - Request:
+2024-08-24 19:22:06,935 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:22:06,935 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:22:06,935 - Server - DEBUG - ----------
+2024-08-24 19:22:06,935 - Server - INFO - Received add_player request
+2024-08-24 19:22:06,935 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:22:06,940 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:22:06,940 - Server - DEBUG - Response:
+2024-08-24 19:22:06,941 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:22:06,941 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:22:06,941 - Server - DEBUG - ----------
+2024-08-24 19:22:06,944 - Server - DEBUG - Request:
+2024-08-24 19:22:06,944 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:22:06,944 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:22:06,944 - Server - DEBUG - ----------
+2024-08-24 19:22:06,944 - Server - INFO - Received add_player request
+2024-08-24 19:22:06,945 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:22:06,950 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:22:06,950 - Server - INFO - Starting initial image generation
+2024-08-24 19:22:07,250 - Server - ERROR - Error generating initial image: 'data'
+2024-08-24 19:22:07,250 - Server - DEBUG - Response:
+2024-08-24 19:22:07,250 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:22:07,250 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 56
+
+
+2024-08-24 19:22:07,250 - Server - DEBUG - ----------
+2024-08-24 19:23:37,874 - Server - DEBUG - Request:
+2024-08-24 19:23:37,874 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:23:37,874 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:23:37,875 - Server - DEBUG - ----------
+2024-08-24 19:23:37,875 - Server - INFO - Received add_player request
+2024-08-24 19:23:37,875 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:23:37,900 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:23:37,900 - Server - DEBUG - Response:
+2024-08-24 19:23:37,900 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:23:37,900 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:23:37,900 - Server - DEBUG - ----------
+2024-08-24 19:23:37,905 - Server - DEBUG - Request:
+2024-08-24 19:23:37,905 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:23:37,905 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:23:37,905 - Server - DEBUG - ----------
+2024-08-24 19:23:37,905 - Server - INFO - Received add_player request
+2024-08-24 19:23:37,905 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:23:37,910 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:23:37,911 - Server - DEBUG - Response:
+2024-08-24 19:23:37,911 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:23:37,911 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:23:37,911 - Server - DEBUG - ----------
+2024-08-24 19:23:37,914 - Server - DEBUG - Request:
+2024-08-24 19:23:37,915 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:23:37,915 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:23:37,915 - Server - DEBUG - ----------
+2024-08-24 19:23:37,915 - Server - INFO - Received add_player request
+2024-08-24 19:23:37,915 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:23:37,920 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:23:37,920 - Server - INFO - Starting initial image generation
+2024-08-24 19:23:38,482 - Server - ERROR - Error generating initial image: 'data'
+2024-08-24 19:23:38,483 - Server - DEBUG - Response:
+2024-08-24 19:23:38,483 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:23:38,483 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 56
+
+
+2024-08-24 19:23:38,483 - Server - DEBUG - ----------
+2024-08-24 19:24:41,762 - Server - DEBUG - Request:
+2024-08-24 19:24:41,762 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:24:41,762 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 19:24:41,763 - Server - DEBUG - ----------
+2024-08-24 19:24:41,763 - Server - INFO - Received add_player request
+2024-08-24 19:24:41,763 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 19:24:41,787 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 19:24:41,787 - Server - DEBUG - Response:
+2024-08-24 19:24:41,787 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:24:41,788 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:24:41,788 - Server - DEBUG - ----------
+2024-08-24 19:24:41,792 - Server - DEBUG - Request:
+2024-08-24 19:24:41,792 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:24:41,792 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 19:24:41,792 - Server - DEBUG - ----------
+2024-08-24 19:24:41,792 - Server - INFO - Received add_player request
+2024-08-24 19:24:41,792 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 19:24:41,797 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 19:24:41,797 - Server - DEBUG - Response:
+2024-08-24 19:24:41,797 - Server - DEBUG - Response status: 200 OK
+2024-08-24 19:24:41,797 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 19:24:41,797 - Server - DEBUG - ----------
+2024-08-24 19:24:41,801 - Server - DEBUG - Request:
+2024-08-24 19:24:41,801 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 19:24:41,801 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 19:24:41,801 - Server - DEBUG - ----------
+2024-08-24 19:24:41,801 - Server - INFO - Received add_player request
+2024-08-24 19:24:41,801 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 19:24:41,807 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 19:24:41,807 - Server - INFO - Starting initial image generation
+2024-08-24 19:24:42,118 - Server - ERROR - Error generating initial image: 'data'
+2024-08-24 19:24:42,118 - Server - DEBUG - Response:
+2024-08-24 19:24:42,118 - Server - DEBUG - Response status: 500 INTERNAL SERVER ERROR
+2024-08-24 19:24:42,118 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 56
+
+
+2024-08-24 19:24:42,118 - Server - DEBUG - ----------
+2024-08-24 20:09:24,385 - Server - DEBUG - Request:
+2024-08-24 20:09:24,385 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 20:09:24,385 - Server - DEBUG - Body: b'{"user_id": "6"}'
+2024-08-24 20:09:24,385 - Server - DEBUG - ----------
+2024-08-24 20:09:24,385 - Server - INFO - Received add_player request
+2024-08-24 20:09:24,385 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 20:09:24,410 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 20:09:24,410 - Server - DEBUG - Response:
+2024-08-24 20:09:24,411 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:09:24,411 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 20:09:24,411 - Server - DEBUG - ----------
+2024-08-24 20:09:24,415 - Server - DEBUG - Request:
+2024-08-24 20:09:24,415 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 20:09:24,415 - Server - DEBUG - Body: b'{"user_id": "7"}'
+2024-08-24 20:09:24,415 - Server - DEBUG - ----------
+2024-08-24 20:09:24,415 - Server - INFO - Received add_player request
+2024-08-24 20:09:24,415 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 20:09:24,420 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 20:09:24,420 - Server - DEBUG - Response:
+2024-08-24 20:09:24,420 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:09:24,420 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 20:09:24,420 - Server - DEBUG - ----------
+2024-08-24 20:09:24,424 - Server - DEBUG - Request:
+2024-08-24 20:09:24,424 - Server - DEBUG - Headers: Host: localhost:5000
+User-Agent: curl/8.6.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 16
+
+
+2024-08-24 20:09:24,424 - Server - DEBUG - Body: b'{"user_id": "8"}'
+2024-08-24 20:09:24,424 - Server - DEBUG - ----------
+2024-08-24 20:09:24,424 - Server - INFO - Received add_player request
+2024-08-24 20:09:24,424 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 20:09:24,430 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 20:09:24,430 - Server - INFO - Starting initial image generation
+2024-08-24 20:09:37,530 - Server - DEBUG - Response:
+2024-08-24 20:09:37,530 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:09:37,530 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 41
+
+
+2024-08-24 20:09:37,530 - Server - DEBUG - ----------
+2024-08-24 20:10:51,438 - Server - DEBUG - Request:
+2024-08-24 20:10:51,438 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 38
+Content-Type: application/json
+
+
+2024-08-24 20:10:51,438 - Server - DEBUG - Body: b'{"username": "Mai", "password": "123"}'
+2024-08-24 20:10:51,438 - Server - DEBUG - ----------
+2024-08-24 20:10:51,438 - Server - INFO - Login attempt for user: Mai
+2024-08-24 20:10:51,439 - Server - INFO - Successful login for user: Mai with ID: 6
+2024-08-24 20:10:51,439 - Server - DEBUG - Response:
+2024-08-24 20:10:51,439 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:51,439 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-24 20:10:51,439 - Server - DEBUG - ----------
+2024-08-24 20:10:51,441 - Server - DEBUG - Request:
+2024-08-24 20:10:51,441 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-24 20:10:51,441 - Server - DEBUG - Body: b'{"user_id": 6}'
+2024-08-24 20:10:51,441 - Server - DEBUG - ----------
+2024-08-24 20:10:51,441 - Server - INFO - Received add_player request
+2024-08-24 20:10:51,441 - Server - INFO - Attempting to add player with user ID: 6
+2024-08-24 20:10:51,466 - Server - INFO - Successfully added player with ID: 6
+2024-08-24 20:10:51,466 - Server - DEBUG - Response:
+2024-08-24 20:10:51,466 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:51,466 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-24 20:10:51,466 - Server - DEBUG - ----------
+2024-08-24 20:10:51,487 - Server - DEBUG - Request:
+2024-08-24 20:10:51,487 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:51,487 - Server - DEBUG - Body: b''
+2024-08-24 20:10:51,487 - Server - DEBUG - ----------
+2024-08-24 20:10:51,487 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:51,488 - Server - DEBUG - Response:
+2024-08-24 20:10:51,488 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:51,488 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:51,488 - Server - DEBUG - ----------
+2024-08-24 20:10:53,523 - Server - DEBUG - Request:
+2024-08-24 20:10:53,523 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:53,523 - Server - DEBUG - Body: b''
+2024-08-24 20:10:53,523 - Server - DEBUG - ----------
+2024-08-24 20:10:53,523 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:53,523 - Server - DEBUG - Response:
+2024-08-24 20:10:53,523 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:53,523 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:53,523 - Server - DEBUG - ----------
+2024-08-24 20:10:55,566 - Server - DEBUG - Request:
+2024-08-24 20:10:55,566 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:55,567 - Server - DEBUG - Body: b''
+2024-08-24 20:10:55,567 - Server - DEBUG - ----------
+2024-08-24 20:10:55,567 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 1, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:55,567 - Server - DEBUG - Response:
+2024-08-24 20:10:55,567 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:55,567 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:55,567 - Server - DEBUG - ----------
+2024-08-24 20:10:55,821 - Server - DEBUG - Request:
+2024-08-24 20:10:55,821 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 38
+Content-Type: application/json
+
+
+2024-08-24 20:10:55,821 - Server - DEBUG - Body: b'{"username": "Ana", "password": "123"}'
+2024-08-24 20:10:55,821 - Server - DEBUG - ----------
+2024-08-24 20:10:55,821 - Server - INFO - Login attempt for user: Ana
+2024-08-24 20:10:55,822 - Server - INFO - Successful login for user: Ana with ID: 8
+2024-08-24 20:10:55,822 - Server - DEBUG - Response:
+2024-08-24 20:10:55,822 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:55,822 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-24 20:10:55,822 - Server - DEBUG - ----------
+2024-08-24 20:10:55,824 - Server - DEBUG - Request:
+2024-08-24 20:10:55,824 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-24 20:10:55,824 - Server - DEBUG - Body: b'{"user_id": 8}'
+2024-08-24 20:10:55,824 - Server - DEBUG - ----------
+2024-08-24 20:10:55,824 - Server - INFO - Received add_player request
+2024-08-24 20:10:55,824 - Server - INFO - Attempting to add player with user ID: 8
+2024-08-24 20:10:55,847 - Server - INFO - Successfully added player with ID: 8
+2024-08-24 20:10:55,847 - Server - DEBUG - Response:
+2024-08-24 20:10:55,847 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:55,847 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-24 20:10:55,848 - Server - DEBUG - ----------
+2024-08-24 20:10:55,866 - Server - DEBUG - Request:
+2024-08-24 20:10:55,866 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:55,866 - Server - DEBUG - Body: b''
+2024-08-24 20:10:55,866 - Server - DEBUG - ----------
+2024-08-24 20:10:55,866 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:55,866 - Server - DEBUG - Response:
+2024-08-24 20:10:55,866 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:55,866 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:55,866 - Server - DEBUG - ----------
+2024-08-24 20:10:57,610 - Server - DEBUG - Request:
+2024-08-24 20:10:57,610 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:57,610 - Server - DEBUG - Body: b''
+2024-08-24 20:10:57,610 - Server - DEBUG - ----------
+2024-08-24 20:10:57,610 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:57,610 - Server - DEBUG - Response:
+2024-08-24 20:10:57,610 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:57,610 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:57,610 - Server - DEBUG - ----------
+2024-08-24 20:10:57,904 - Server - DEBUG - Request:
+2024-08-24 20:10:57,904 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:57,904 - Server - DEBUG - Body: b''
+2024-08-24 20:10:57,904 - Server - DEBUG - ----------
+2024-08-24 20:10:57,904 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:57,904 - Server - DEBUG - Response:
+2024-08-24 20:10:57,904 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:57,904 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:57,904 - Server - DEBUG - ----------
+2024-08-24 20:10:59,653 - Server - DEBUG - Request:
+2024-08-24 20:10:59,653 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:59,653 - Server - DEBUG - Body: b''
+2024-08-24 20:10:59,653 - Server - DEBUG - ----------
+2024-08-24 20:10:59,653 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:59,654 - Server - DEBUG - Response:
+2024-08-24 20:10:59,654 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:59,654 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:59,654 - Server - DEBUG - ----------
+2024-08-24 20:10:59,940 - Server - DEBUG - Request:
+2024-08-24 20:10:59,940 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:10:59,940 - Server - DEBUG - Body: b''
+2024-08-24 20:10:59,940 - Server - DEBUG - ----------
+2024-08-24 20:10:59,940 - Server - INFO - Game status requested: {'status': 'SETUP', 'number_of_players': 2, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:10:59,940 - Server - DEBUG - Response:
+2024-08-24 20:10:59,940 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:10:59,940 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 91
+
+
+2024-08-24 20:10:59,940 - Server - DEBUG - ----------
+2024-08-24 20:11:01,152 - Server - DEBUG - Request:
+2024-08-24 20:11:01,152 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 40
+Content-Type: application/json
+
+
+2024-08-24 20:11:01,152 - Server - DEBUG - Body: b'{"username": "Domzi", "password": "123"}'
+2024-08-24 20:11:01,152 - Server - DEBUG - ----------
+2024-08-24 20:11:01,152 - Server - INFO - Login attempt for user: Domzi
+2024-08-24 20:11:01,153 - Server - INFO - Successful login for user: Domzi with ID: 7
+2024-08-24 20:11:01,153 - Server - DEBUG - Response:
+2024-08-24 20:11:01,153 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:01,153 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 38
+
+
+2024-08-24 20:11:01,153 - Server - DEBUG - ----------
+2024-08-24 20:11:01,155 - Server - DEBUG - Request:
+2024-08-24 20:11:01,155 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 14
+Content-Type: application/json
+
+
+2024-08-24 20:11:01,155 - Server - DEBUG - Body: b'{"user_id": 7}'
+2024-08-24 20:11:01,155 - Server - DEBUG - ----------
+2024-08-24 20:11:01,155 - Server - INFO - Received add_player request
+2024-08-24 20:11:01,155 - Server - INFO - Attempting to add player with user ID: 7
+2024-08-24 20:11:01,175 - Server - INFO - Successfully added player with ID: 7
+2024-08-24 20:11:01,175 - Server - INFO - Starting initial image generation
+2024-08-24 20:11:01,697 - Server - DEBUG - Request:
+2024-08-24 20:11:01,697 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:01,697 - Server - DEBUG - Body: b''
+2024-08-24 20:11:01,697 - Server - DEBUG - ----------
+2024-08-24 20:11:01,980 - Server - DEBUG - Request:
+2024-08-24 20:11:01,980 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:01,981 - Server - DEBUG - Body: b''
+2024-08-24 20:11:01,981 - Server - DEBUG - ----------
+2024-08-24 20:11:13,482 - Server - DEBUG - Response:
+2024-08-24 20:11:13,483 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,483 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 39
+
+
+2024-08-24 20:11:13,483 - Server - DEBUG - ----------
+2024-08-24 20:11:13,483 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,483 - Server - DEBUG - Response:
+2024-08-24 20:11:13,483 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,483 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:13,483 - Server - DEBUG - ----------
+2024-08-24 20:11:13,483 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,484 - Server - DEBUG - Response:
+2024-08-24 20:11:13,484 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,484 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:13,484 - Server - DEBUG - ----------
+2024-08-24 20:11:13,503 - Server - DEBUG - Request:
+2024-08-24 20:11:13,504 - Server - DEBUG - Request:
+2024-08-24 20:11:13,504 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:13,504 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:13,504 - Server - DEBUG - Body: b''
+2024-08-24 20:11:13,504 - Server - DEBUG - Body: b''
+2024-08-24 20:11:13,504 - Server - DEBUG - ----------
+2024-08-24 20:11:13,504 - Server - DEBUG - ----------
+2024-08-24 20:11:13,504 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,504 - Server - DEBUG - Response:
+2024-08-24 20:11:13,504 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,504 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:13,504 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:13,510 - Server - DEBUG - Response:
+2024-08-24 20:11:13,510 - Server - DEBUG - ----------
+2024-08-24 20:11:13,510 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,510 - Server - DEBUG - Request:
+2024-08-24 20:11:13,511 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:13,511 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:13,511 - Server - DEBUG - ----------
+2024-08-24 20:11:13,511 - Server - DEBUG - Body: b''
+2024-08-24 20:11:13,511 - Server - DEBUG - ----------
+2024-08-24 20:11:13,511 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:13,516 - Server - DEBUG - Response:
+2024-08-24 20:11:13,516 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,516 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:13,516 - Server - DEBUG - ----------
+2024-08-24 20:11:13,530 - Server - DEBUG - Request:
+2024-08-24 20:11:13,531 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:13,531 - Server - DEBUG - Body: b''
+2024-08-24 20:11:13,531 - Server - DEBUG - ----------
+2024-08-24 20:11:13,531 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:13,536 - Server - DEBUG - Response:
+2024-08-24 20:11:13,536 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,536 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:13,536 - Server - DEBUG - ----------
+2024-08-24 20:11:13,573 - Server - DEBUG - Request:
+2024-08-24 20:11:13,573 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:13,573 - Server - DEBUG - Body: b''
+2024-08-24 20:11:13,573 - Server - DEBUG - ----------
+2024-08-24 20:11:13,573 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,573 - Server - DEBUG - Response:
+2024-08-24 20:11:13,573 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,573 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:13,573 - Server - DEBUG - ----------
+2024-08-24 20:11:13,574 - Server - DEBUG - Request:
+2024-08-24 20:11:13,574 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:13,574 - Server - DEBUG - Body: b''
+2024-08-24 20:11:13,574 - Server - DEBUG - ----------
+2024-08-24 20:11:13,574 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:13,574 - Server - DEBUG - Response:
+2024-08-24 20:11:13,574 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:13,574 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:13,574 - Server - DEBUG - ----------
+2024-08-24 20:11:27,779 - Server - DEBUG - Request:
+2024-08-24 20:11:27,780 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:27,780 - Server - DEBUG - Body: b''
+2024-08-24 20:11:27,780 - Server - DEBUG - ----------
+2024-08-24 20:11:27,780 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:27,786 - Server - DEBUG - Response:
+2024-08-24 20:11:27,786 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:27,786 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:27,786 - Server - DEBUG - ----------
+2024-08-24 20:11:27,826 - Server - DEBUG - Request:
+2024-08-24 20:11:27,826 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:27,826 - Server - DEBUG - Body: b''
+2024-08-24 20:11:27,826 - Server - DEBUG - ----------
+2024-08-24 20:11:27,826 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:27,826 - Server - DEBUG - Response:
+2024-08-24 20:11:27,826 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:27,826 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:27,827 - Server - DEBUG - ----------
+2024-08-24 20:11:27,885 - Server - DEBUG - Request:
+2024-08-24 20:11:27,885 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:27,885 - Server - DEBUG - Body: b''
+2024-08-24 20:11:27,885 - Server - DEBUG - ----------
+2024-08-24 20:11:27,885 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:27,890 - Server - DEBUG - Response:
+2024-08-24 20:11:27,890 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:27,890 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:27,890 - Server - DEBUG - ----------
+2024-08-24 20:11:27,928 - Server - DEBUG - Request:
+2024-08-24 20:11:27,928 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 67
+Content-Type: application/json
+
+
+2024-08-24 20:11:27,928 - Server - DEBUG - Body: b'{"player_id": 7, "player_prompt": "Horse and a mummy at the alter"}'
+2024-08-24 20:11:27,928 - Server - DEBUG - ----------
+2024-08-24 20:11:27,947 - Server - INFO - Player 7 sent prompt: Horse and a mummy at the alter
+2024-08-24 20:11:27,947 - Server - DEBUG - Response:
+2024-08-24 20:11:27,947 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:27,947 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-24 20:11:27,947 - Server - DEBUG - ----------
+2024-08-24 20:11:29,995 - Server - DEBUG - Request:
+2024-08-24 20:11:29,995 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:29,995 - Server - DEBUG - Body: b''
+2024-08-24 20:11:29,996 - Server - DEBUG - ----------
+2024-08-24 20:11:29,996 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:29,996 - Server - DEBUG - Response:
+2024-08-24 20:11:29,996 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:29,996 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:29,996 - Server - DEBUG - ----------
+2024-08-24 20:11:32,033 - Server - DEBUG - Request:
+2024-08-24 20:11:32,033 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:32,033 - Server - DEBUG - Body: b''
+2024-08-24 20:11:32,033 - Server - DEBUG - ----------
+2024-08-24 20:11:32,033 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:32,033 - Server - DEBUG - Response:
+2024-08-24 20:11:32,033 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:32,033 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:32,034 - Server - DEBUG - ----------
+2024-08-24 20:11:34,070 - Server - DEBUG - Request:
+2024-08-24 20:11:34,070 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:34,070 - Server - DEBUG - Body: b''
+2024-08-24 20:11:34,070 - Server - DEBUG - ----------
+2024-08-24 20:11:34,070 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:34,070 - Server - DEBUG - Response:
+2024-08-24 20:11:34,070 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:34,070 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:34,070 - Server - DEBUG - ----------
+2024-08-24 20:11:36,112 - Server - DEBUG - Request:
+2024-08-24 20:11:36,112 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:36,112 - Server - DEBUG - Body: b''
+2024-08-24 20:11:36,112 - Server - DEBUG - ----------
+2024-08-24 20:11:36,113 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:36,113 - Server - DEBUG - Response:
+2024-08-24 20:11:36,113 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:36,113 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:36,113 - Server - DEBUG - ----------
+2024-08-24 20:11:37,784 - Server - DEBUG - Request:
+2024-08-24 20:11:37,785 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:37,785 - Server - DEBUG - Body: b''
+2024-08-24 20:11:37,785 - Server - DEBUG - ----------
+2024-08-24 20:11:37,785 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:37,790 - Server - DEBUG - Response:
+2024-08-24 20:11:37,790 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:37,790 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:37,790 - Server - DEBUG - ----------
+2024-08-24 20:11:37,830 - Server - DEBUG - Request:
+2024-08-24 20:11:37,830 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:37,830 - Server - DEBUG - Body: b''
+2024-08-24 20:11:37,830 - Server - DEBUG - ----------
+2024-08-24 20:11:37,830 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:37,830 - Server - DEBUG - Response:
+2024-08-24 20:11:37,830 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:37,830 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:37,830 - Server - DEBUG - ----------
+2024-08-24 20:11:37,874 - Server - DEBUG - Request:
+2024-08-24 20:11:37,874 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:37,874 - Server - DEBUG - Body: b''
+2024-08-24 20:11:37,874 - Server - DEBUG - ----------
+2024-08-24 20:11:37,874 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:37,879 - Server - DEBUG - Response:
+2024-08-24 20:11:37,879 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:37,879 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:37,879 - Server - DEBUG - ----------
+2024-08-24 20:11:37,918 - Server - DEBUG - Request:
+2024-08-24 20:11:37,918 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 48
+Content-Type: application/json
+
+
+2024-08-24 20:11:37,918 - Server - DEBUG - Body: b'{"player_id": 8, "player_prompt": "wings of ra"}'
+2024-08-24 20:11:37,918 - Server - DEBUG - ----------
+2024-08-24 20:11:37,938 - Server - INFO - Player 8 sent prompt: wings of ra
+2024-08-24 20:11:37,938 - Server - DEBUG - Response:
+2024-08-24 20:11:37,938 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:37,938 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-24 20:11:37,938 - Server - DEBUG - ----------
+2024-08-24 20:11:38,150 - Server - DEBUG - Request:
+2024-08-24 20:11:38,150 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:38,150 - Server - DEBUG - Body: b''
+2024-08-24 20:11:38,150 - Server - DEBUG - ----------
+2024-08-24 20:11:38,151 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:38,151 - Server - DEBUG - Response:
+2024-08-24 20:11:38,151 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:38,151 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:38,151 - Server - DEBUG - ----------
+2024-08-24 20:11:39,988 - Server - DEBUG - Request:
+2024-08-24 20:11:39,988 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:39,988 - Server - DEBUG - Body: b''
+2024-08-24 20:11:39,988 - Server - DEBUG - ----------
+2024-08-24 20:11:39,988 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:39,988 - Server - DEBUG - Response:
+2024-08-24 20:11:39,988 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:39,988 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:39,988 - Server - DEBUG - ----------
+2024-08-24 20:11:40,192 - Server - DEBUG - Request:
+2024-08-24 20:11:40,192 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:40,192 - Server - DEBUG - Body: b''
+2024-08-24 20:11:40,192 - Server - DEBUG - ----------
+2024-08-24 20:11:40,193 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:40,193 - Server - DEBUG - Response:
+2024-08-24 20:11:40,193 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:40,193 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:40,193 - Server - DEBUG - ----------
+2024-08-24 20:11:42,025 - Server - DEBUG - Request:
+2024-08-24 20:11:42,026 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:42,026 - Server - DEBUG - Body: b''
+2024-08-24 20:11:42,026 - Server - DEBUG - ----------
+2024-08-24 20:11:42,026 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:42,026 - Server - DEBUG - Response:
+2024-08-24 20:11:42,026 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:42,026 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:42,026 - Server - DEBUG - ----------
+2024-08-24 20:11:42,230 - Server - DEBUG - Request:
+2024-08-24 20:11:42,230 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:42,230 - Server - DEBUG - Body: b''
+2024-08-24 20:11:42,230 - Server - DEBUG - ----------
+2024-08-24 20:11:42,231 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:42,231 - Server - DEBUG - Response:
+2024-08-24 20:11:42,231 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:42,231 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:42,231 - Server - DEBUG - ----------
+2024-08-24 20:11:44,069 - Server - DEBUG - Request:
+2024-08-24 20:11:44,069 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:44,069 - Server - DEBUG - Body: b''
+2024-08-24 20:11:44,069 - Server - DEBUG - ----------
+2024-08-24 20:11:44,069 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:44,069 - Server - DEBUG - Response:
+2024-08-24 20:11:44,069 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:44,069 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:44,070 - Server - DEBUG - ----------
+2024-08-24 20:11:44,266 - Server - DEBUG - Request:
+2024-08-24 20:11:44,266 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:44,267 - Server - DEBUG - Body: b''
+2024-08-24 20:11:44,267 - Server - DEBUG - ----------
+2024-08-24 20:11:44,267 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:44,267 - Server - DEBUG - Response:
+2024-08-24 20:11:44,267 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:44,267 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:44,267 - Server - DEBUG - ----------
+2024-08-24 20:11:46,070 - Server - DEBUG - Request:
+2024-08-24 20:11:46,070 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:46,070 - Server - DEBUG - Body: b''
+2024-08-24 20:11:46,070 - Server - DEBUG - ----------
+2024-08-24 20:11:46,070 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:46,077 - Server - DEBUG - Response:
+2024-08-24 20:11:46,077 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:46,077 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:46,077 - Server - DEBUG - ----------
+2024-08-24 20:11:46,113 - Server - DEBUG - Request:
+2024-08-24 20:11:46,113 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:46,113 - Server - DEBUG - Body: b''
+2024-08-24 20:11:46,113 - Server - DEBUG - ----------
+2024-08-24 20:11:46,113 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:46,113 - Server - DEBUG - Response:
+2024-08-24 20:11:46,113 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:46,113 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:46,113 - Server - DEBUG - ----------
+2024-08-24 20:11:46,119 - Server - DEBUG - Request:
+2024-08-24 20:11:46,119 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:46,119 - Server - DEBUG - Body: b''
+2024-08-24 20:11:46,119 - Server - DEBUG - ----------
+2024-08-24 20:11:46,119 - Server - INFO - Game status requested: {'status': 'PROMPTING_PLAYERS', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:11:46,119 - Server - DEBUG - Response:
+2024-08-24 20:11:46,119 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:46,119 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 103
+
+
+2024-08-24 20:11:46,119 - Server - DEBUG - ----------
+2024-08-24 20:11:46,151 - Server - DEBUG - Request:
+2024-08-24 20:11:46,151 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:46,151 - Server - DEBUG - Body: b''
+2024-08-24 20:11:46,151 - Server - DEBUG - ----------
+2024-08-24 20:11:46,151 - Server - INFO - Initial image retrieved
+2024-08-24 20:11:46,156 - Server - DEBUG - Response:
+2024-08-24 20:11:46,156 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:46,156 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 2486478
+
+
+2024-08-24 20:11:46,156 - Server - DEBUG - ----------
+2024-08-24 20:11:46,201 - Server - DEBUG - Request:
+2024-08-24 20:11:46,201 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 56
+Content-Type: application/json
+
+
+2024-08-24 20:11:46,201 - Server - DEBUG - Body: b'{"player_id": 6, "player_prompt": "best day of my life"}'
+2024-08-24 20:11:46,201 - Server - DEBUG - ----------
+2024-08-24 20:11:46,221 - Server - INFO - Player 6 sent prompt: best day of my life
+2024-08-24 20:11:46,221 - Server - DEBUG - Response:
+2024-08-24 20:11:46,221 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:11:46,221 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-24 20:11:46,221 - Server - DEBUG - ----------
+2024-08-24 20:11:46,303 - Server - DEBUG - Request:
+2024-08-24 20:11:46,303 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:46,303 - Server - DEBUG - Body: b''
+2024-08-24 20:11:46,303 - Server - DEBUG - ----------
+2024-08-24 20:11:48,152 - Server - DEBUG - Request:
+2024-08-24 20:11:48,152 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:48,152 - Server - DEBUG - Body: b''
+2024-08-24 20:11:48,152 - Server - DEBUG - ----------
+2024-08-24 20:11:48,276 - Server - DEBUG - Request:
+2024-08-24 20:11:48,276 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:11:48,276 - Server - DEBUG - Body: b''
+2024-08-24 20:11:48,276 - Server - DEBUG - ----------
+2024-08-24 20:12:25,069 - Server - INFO - Game status requested: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:12:25,069 - Server - DEBUG - Response:
+2024-08-24 20:12:25,069 - Server - INFO - Game status requested: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:12:25,070 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:25,070 - Server - DEBUG - Response:
+2024-08-24 20:12:25,070 - Server - INFO - Game status requested: {'status': 'VOTING', 'number_of_players': 3, 'current_round': 0, 'max_rounds': 5}
+2024-08-24 20:12:25,070 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 92
+
+
+2024-08-24 20:12:25,070 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:25,070 - Server - DEBUG - Response:
+2024-08-24 20:12:25,070 - Server - DEBUG - ----------
+2024-08-24 20:12:25,070 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 92
+
+
+2024-08-24 20:12:25,070 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:25,070 - Server - DEBUG - ----------
+2024-08-24 20:12:25,070 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 92
+
+
+2024-08-24 20:12:25,071 - Server - DEBUG - ----------
+2024-08-24 20:12:25,093 - Server - DEBUG - Request:
+2024-08-24 20:12:25,093 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:12:25,093 - Server - DEBUG - Body: b''
+2024-08-24 20:12:25,093 - Server - DEBUG - ----------
+2024-08-24 20:12:25,093 - Server - INFO - Player images retrieved
+2024-08-24 20:12:25,111 - Server - DEBUG - Response:
+2024-08-24 20:12:25,111 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:25,111 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 7664524
+
+
+2024-08-24 20:12:25,111 - Server - DEBUG - ----------
+2024-08-24 20:12:25,112 - Server - DEBUG - Request:
+2024-08-24 20:12:25,112 - Server - DEBUG - Request:
+2024-08-24 20:12:25,112 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:12:25,112 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:12:25,112 - Server - DEBUG - Body: b''
+2024-08-24 20:12:25,112 - Server - DEBUG - Body: b''
+2024-08-24 20:12:25,112 - Server - DEBUG - ----------
+2024-08-24 20:12:25,112 - Server - DEBUG - ----------
+2024-08-24 20:12:25,113 - Server - INFO - Player images retrieved
+2024-08-24 20:12:25,131 - Server - DEBUG - Response:
+2024-08-24 20:12:25,131 - Server - INFO - Player images retrieved
+2024-08-24 20:12:25,131 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:25,143 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 7664524
+
+
+2024-08-24 20:12:25,150 - Server - DEBUG - Response:
+2024-08-24 20:12:25,150 - Server - DEBUG - ----------
+2024-08-24 20:12:25,151 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:25,151 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 7664524
+
+
+2024-08-24 20:12:25,151 - Server - DEBUG - ----------
+2024-08-24 20:12:34,783 - Server - DEBUG - Request:
+2024-08-24 20:12:34,783 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:12:34,783 - Server - DEBUG - Body: b''
+2024-08-24 20:12:34,783 - Server - DEBUG - ----------
+2024-08-24 20:12:34,783 - Server - INFO - Player images retrieved
+2024-08-24 20:12:34,801 - Server - DEBUG - Response:
+2024-08-24 20:12:34,801 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:34,801 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 7664524
+
+
+2024-08-24 20:12:34,801 - Server - DEBUG - ----------
+2024-08-24 20:12:34,886 - Server - DEBUG - Request:
+2024-08-24 20:12:34,886 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 37
+Content-Type: application/json
+
+
+2024-08-24 20:12:34,886 - Server - DEBUG - Body: b'{"player_id": 6, "voted_for_id": "7"}'
+2024-08-24 20:12:34,886 - Server - DEBUG - ----------
+2024-08-24 20:12:34,886 - Server - INFO - Player None voted for Player 7
+2024-08-24 20:12:34,886 - Server - DEBUG - Response:
+2024-08-24 20:12:34,886 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:34,886 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-24 20:12:34,887 - Server - DEBUG - ----------
+2024-08-24 20:12:40,576 - Server - DEBUG - Request:
+2024-08-24 20:12:40,576 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:12:40,576 - Server - DEBUG - Body: b''
+2024-08-24 20:12:40,576 - Server - DEBUG - ----------
+2024-08-24 20:12:40,576 - Server - INFO - Player images retrieved
+2024-08-24 20:12:40,594 - Server - DEBUG - Response:
+2024-08-24 20:12:40,594 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:40,594 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 7664524
+
+
+2024-08-24 20:12:40,594 - Server - DEBUG - ----------
+2024-08-24 20:12:40,650 - Server - DEBUG - Request:
+2024-08-24 20:12:40,650 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 37
+Content-Type: application/json
+
+
+2024-08-24 20:12:40,650 - Server - DEBUG - Body: b'{"player_id": 8, "voted_for_id": "6"}'
+2024-08-24 20:12:40,650 - Server - DEBUG - ----------
+2024-08-24 20:12:40,650 - Server - INFO - Player None voted for Player 6
+2024-08-24 20:12:40,650 - Server - DEBUG - Response:
+2024-08-24 20:12:40,650 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:40,650 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-24 20:12:40,650 - Server - DEBUG - ----------
+2024-08-24 20:12:43,274 - Server - DEBUG - Request:
+2024-08-24 20:12:43,274 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-08-24 20:12:43,274 - Server - DEBUG - Body: b''
+2024-08-24 20:12:43,274 - Server - DEBUG - ----------
+2024-08-24 20:12:43,274 - Server - INFO - Player images retrieved
+2024-08-24 20:12:43,292 - Server - DEBUG - Response:
+2024-08-24 20:12:43,292 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:43,292 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 7664524
+
+
+2024-08-24 20:12:43,292 - Server - DEBUG - ----------
+2024-08-24 20:12:43,352 - Server - DEBUG - Request:
+2024-08-24 20:12:43,352 - Server - DEBUG - Headers: Host: 127.0.0.1:5000
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 37
+Content-Type: application/json
+
+
+2024-08-24 20:12:43,352 - Server - DEBUG - Body: b'{"player_id": 7, "voted_for_id": "6"}'
+2024-08-24 20:12:43,352 - Server - DEBUG - ----------
+2024-08-24 20:12:43,352 - Server - INFO - Player None voted for Player 6
+2024-08-24 20:12:43,352 - Server - DEBUG - Response:
+2024-08-24 20:12:43,352 - Server - DEBUG - Response status: 200 OK
+2024-08-24 20:12:43,352 - Server - DEBUG - Response headers: Content-Type: application/json
+Content-Length: 22
+
+
+2024-08-24 20:12:43,352 - Server - DEBUG - ----------
