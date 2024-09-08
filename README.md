@@ -11,8 +11,8 @@ An interactive game combining LLMs and image generation AI. Players compete to r
 
 ### Backend
 ```bash
-git clone https://github.com/yourusername/image-game-project.git
-cd image-game-project/backend
+git clone https://github.com/MaiMarincic/ImageGame.git
+cd ImageGame/backend
 pip install -r requirements.txt
 python server.py
 ```
