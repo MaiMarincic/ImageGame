@@ -22,7 +22,7 @@ python server.py
 cd University/PodatkovneBaze/ImageGame/frontend/
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install streamlit
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
@@ -54,9 +54,3 @@ python cli.py games
 python cli.py game-details [GAME_ID]
 python cli.py image-details [IMAGE_ID]
 ```
-
-## Contributing
-Contributions welcome. Submit a Pull Request.
-
-## License
-MIT License
