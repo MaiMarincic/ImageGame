@@ -6,6 +6,7 @@ An interactive game combining LLMs and image generation AI. Players compete to r
 ## Prerequisites
 - Ollama LLM (Using 3.1)
 - OpenAI API Key (Set as environment variable: `OPENAI_API_KEY`)
+> Note: It can also be run locally by setting LOCAL to true without OpenAI but then only a default image will show up. For testing purposes only.
 
 ## Setup
 
