@@ -8,6 +8,9 @@ An interactive game combining LLMs and image generation AI. Players compete to r
 - OpenAI API Key (Set as environment variable: `OPENAI_API_KEY`)
 > Note: It can also be run locally by setting LOCAL to true without OpenAI but then only a default image will show up. For testing purposes only.
 
+## Diagram
+![Diag](IMG_podatkovne.svg)
+
 ## Setup
 
 ### Backend
