@@ -9,7 +9,7 @@ An interactive game combining LLMs and image generation AI. Players compete to r
 > Note: It can also be run locally by setting LOCAL to true without OpenAI but then only a default image will show up. For testing purposes only.
 
 ## Diagram
-![Diag](IMG_database.svg)
+![Diag](IMG_database.jpg)
 
 ## Setup
 
