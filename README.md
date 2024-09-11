@@ -4,7 +4,7 @@
 An interactive game combining LLMs and image generation AI. Players compete to recreate a randomly generated image using text prompts.
 
 ## Prerequisites
-- Ollama LLM (Using 3.1)
+- Ollama LLM (Using 3.1) [https://ollama.com/]
 - OpenAI API Key (Set as environment variable: `OPENAI_API_KEY`)
 > Note: It can also be run locally by setting LOCAL to true without OpenAI but then only a default image will show up. For testing purposes only.
 
